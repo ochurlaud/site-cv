@@ -1,0 +1,37 @@
+body{
+	margin-top: 70px;
+}
+#banniere {
+	margin-top: -20px;
+	border: 1px solid grey;
+	border-radius: 0;
+	color: grey;
+}
+#banniere .container {
+	line-height:150px;
+}
+#banniere .container div address{
+	vertical-align:middle;
+	display:inline-block;
+}
+#topmenu {
+	border-radius: 0;
+}
+#content {
+	width: 75%;
+}
+#footer {
+	background: grey;
+	margin-top: 20px;
+	width: 100%;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+}
+#photo_id {
+	border-radius : 10px;
+}
+.adressemail {
+	unicode-bidi: bidi-override;
+	direction: rtl;
+}
