@@ -1,24 +1,38 @@
-body{
+body {
 	margin-top: 70px;
+	background: #eee;
 }
-#banniere {
+#bandeau {
 	margin-top: -20px;
-	border: 1px solid grey;
+	border-bottom: 1px solid grey;
 	border-radius: 0;
 	color: grey;
 }
-#banniere .container {
-	line-height:150px;
+#bandeau .container {
+	background: #fff;
+	width: 75%;
+	margin-bottom: 0;
+	padding-bottom:0;
+	padding-top:0;
+	border-bottom: none;
+	border-radius: 0;
+	line-height: 150px;
 }
-#banniere .container div address{
+#bandeau .container div address{
 	vertical-align:middle;
 	display:inline-block;
+	margin-left: 15px;
+	margin-right: -15px;
 }
 #topmenu {
 	border-radius: 0;
 }
 #content {
+	background: #fff;
 	width: 75%;
+	margin-top: -20px;
+	border-top: none;
+	border-radius: 0 0 5px 5px;
 }
 #footer {
 	background: grey;
@@ -30,6 +44,16 @@ body{
 }
 #photo_id {
 	border-radius : 10px;
+}
+.topic {
+	margin-top:10px;
+}
+.topic-header {
+	text-align: right;
+	font-weight: bold;
+	color: #777;
+}
+.topic-content {
 }
 .adressemail {
 	unicode-bidi: bidi-override;

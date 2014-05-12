@@ -18,29 +18,3 @@
 			</div>
 		</div>
 	</div>
-		<div id="banniere" class="navbar">
-		<div class="container">
-			<div class="col-sm-3  col-md-2 col-md-offset-1">
-				<img id="photo_id" src="img/ID_ochurlaud.png" alt="Olivier CHURLAUD" height="160px"/>
-			</div>
-			<div class="col-sm-4 col-md-3">
-				<address>
-					<strong>Olivier CHURLAUD</strong><br />
-					<?php echo $age; ?> ans (né le 7 avril 1992)<br />
-					<span class="glyphicon glyphicon-send"></span> <span class="adressemail">moc.dualruhc@reivilo</span><br />
-					<a href="fr.linkedin.com/in/olivierchurlaud/" alt="lien linkedin">fr.linkedin.com/in/olivierchurlaud/</a><br />
-					<span class="glyphicon glyphicon-earphone"></span> +33 (0)6 98 29 02 52<br />
-				</address>
-			</div>
-			<div class="col-sm-4 col-md-3">
-				<address>
-					<span class="glyphicon glyphicon-envelope"></span> 12, place du grand four<br />
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;79 370 MOUGON</br />
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FRANCE
-				</address>
-			</div>
-			<div class="col-md-2">
-				<a href="../download/CV_Olivier_CHURLAUD_fr.pdf" class="btn btn-info btn-md-1"><b class="glyphicon glyphicon-download-alt"></b> Télécharger CV</a>
-			</div>
-		</div>
-	</div>

@@ -14,5 +14,6 @@
     </head>
     <body>
 	<?php require_once('includes/menu.php');?>
+	<?php require_once('includes/bandeau.php');?>
+	<div id="content" class="container well">
 	
-	<div id="content" class="container">

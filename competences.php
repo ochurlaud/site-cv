@@ -69,7 +69,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-4 col-md-4">
+			<div class="col-md-4">
 				<div class="thumbnail">
 					<h1 class="text-center"><b class="glyphicon glyphicon-comment"></b></h1>
 					<div class="caption">
