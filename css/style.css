@@ -4,17 +4,18 @@ body {
 }
 #bandeau {
 	margin-top: -20px;
-	border-bottom: 1px solid grey;
+	border-bottom: 1px solid #ccc;
 	border-radius: 0;
 	color: grey;
+	background: #e0f0f6;
 }
 #bandeau .container {
-	background: #fff;
 	width: 75%;
 	margin-bottom: 0;
 	padding-bottom:0;
 	padding-top:0;
-	border-bottom: none;
+	padding:0;
+	border: none;
 	border-radius: 0;
 	line-height: 150px;
 }
@@ -35,7 +36,7 @@ body {
 	border-radius: 0 0 5px 5px;
 }
 #footer {
-	background: grey;
+	background: #aaa;
 	margin-top: 20px;
 	width: 100%;
 	text-align: center;
@@ -58,4 +59,16 @@ body {
 .adressemail {
 	unicode-bidi: bidi-override;
 	direction: rtl;
+}
+.projet {
+	margin-top: 20px;
+	padding: 0px 20px 0px 20px;
+	border: 1px solid #bbb;
+	border-radius: 5px;
+}
+.liens {
+	margin-left: 2%;
+}
+.index {
+	margin-top: 40px;
 }

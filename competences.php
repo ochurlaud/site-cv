@@ -1,4 +1,7 @@
 <?php require_once('includes/headers.php');?>
+
+	<h1 class="page-header">Compétences</h1> 
+
 	<div id="competences">
 		<div class="row">
 			<div class="col-md-4">
@@ -10,7 +13,7 @@
 							<li>Chef de projet</li>
 							<li>Coordination d'équipes</li>
 							<li>Gestion d'échéances</li>
-						<ul>
+						</ul>
 					</div>
 				</div>
 			</div>
@@ -18,11 +21,12 @@
 				<div class="thumbnail">
 					<h1 class="text-center"><b class="glyphicon glyphicon-random"></b></h1>
 					<div class="caption">
-						<h4>Signaux et information</h4>
+						<h4>Sciences</h4>
 						<ul>
-							<li>Traitement du signal</li>
-							<li>Filtrage</li>
-						<ul>
+							<li>Traitement du signal, Filtrage</li>
+							<li>&Eacute;lectromagnetisme</li>
+							<li>Mathématiques</li>
+						</ul>
 					</div>
 				</div>
 			</div>
@@ -33,10 +37,9 @@
 						<h4>Langues</h4>
 						<ul>
 							<li><strong>Francais</strong> : Langue maternelle</li>
-							</li>
 							<li><strong>Anglais</strong> : Lu, écrit, parlé (~fluide) - TOEFL 613pts (2014)</li>
 							<li><strong>Allemand</strong> : Lu, écrit, parlé (~fluide) - B2 (2014)</li>
-						<ul>
+						</ul>
 					</div>
 				</div>
 			</div>
@@ -50,7 +53,7 @@
 						<ul>
 							<li>Programmation de microcontrôleurs Microchip</li>
 							<li>Configuration modules Microchip (MRF24J40, MRF24WB0)</li>
-						<ul>
+						</ul>
 					</div>
 				</div>
 			</div>
@@ -65,7 +68,7 @@
 							<li>Virtualisation KVM</li>
 							<li>Bridging, VLAN</li>
 							<li>Apache2, Nginx</li>
-						<ul>
+						</ul>
 					</div>
 				</div>
 			</div>
@@ -78,7 +81,7 @@
 							<li><strong>Web</strong> : HTML5, CSS, PHP, <em>Symfony2</em></li>
 							<li><strong>BDD</strong> : MySQL, PostgreSQL, MS Access</li>
 							<li><strong>Langages divers</strong> : MATLAB, C/C++, Latex</li>
-						<ul>
+						</ul>
 					</div>
 				</div>
 			</div>
