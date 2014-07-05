@@ -1,14 +1,6 @@
 <?php require_once('includes/headers.php');?>
-<?php
-$language = 'fr_FR.utf8';
-putenv("LANG=$language"); 
-setlocale(LC_ALL, $language);
-// Set the text domain as 'messages'
-$domain = 'messages';
-bindtextdomain($domain, "./locale"); 
-textdomain($domain);
-?>
-	<h1 class="page-header"><?php echo _("Compétences");?></h1> 
+
+	<h1 class="page-header">Compétences</h1> 
 
 	<div id="competences">
 		<div class="row">
@@ -16,9 +8,11 @@ textdomain($domain);
 				<div class="thumbnail">
 					<h1 class="text-center"><b class="glyphicon glyphicon-road"></b></h1>
 					<div class="caption">
-						<h4><?php echo _("comp_management_titre");?></h4>
+						<h4>Management</h4>
 						<ul>
-							<?php echo _("comp_management");?>
+							<li>Chef de projet</li>
+							<li>Coordination d'équipes</li>
+							<li>Gestion d'échéances</li>
 						</ul>
 					</div>
 				</div>
@@ -27,9 +21,11 @@ textdomain($domain);
 				<div class="thumbnail">
 					<h1 class="text-center"><b class="glyphicon glyphicon-random"></b></h1>
 					<div class="caption">
-						<h4><?php echo _("comp_sciences_titre");?></h4>
+						<h4>Sciences</h4>
 						<ul>
-							<?php echo _("comp_sciences");?>
+							<li>Traitement du signal, Filtrage</li>
+							<li>&Eacute;lectromagnetisme</li>
+							<li>Mathématiques</li>
 						</ul>
 					</div>
 				</div>
@@ -38,9 +34,11 @@ textdomain($domain);
 				<div class="thumbnail">
 					<h1 class="text-center"><b class="glyphicon glyphicon-globe"></b></h1>
 					<div class="caption">
-						<h4><?php echo _("comp_langues_titre");?></h4>
+						<h4>Langues</h4>
 						<ul>
-							<?php echo _("comp_langues");?>
+							<li><strong>Francais</strong> : Langue maternelle</li>
+							<li><strong>Anglais</strong> : Lu, écrit, parlé (~fluide) - TOEFL 613pts (2014)</li>
+							<li><strong>Allemand</strong> : Lu, écrit, parlé (~fluide) - B2 (2014)</li>
 						</ul>
 					</div>
 				</div>
@@ -51,9 +49,10 @@ textdomain($domain);
 				<div class="thumbnail">
 					<h1 class="text-center"><b class="glyphicon glyphicon-qrcode"></b></h1>
 					<div class="caption">
-						<h4><?php echo _("comp_electronique_titre");?></h4>
+						<h4>&Eacute;lectronique</h4>
 						<ul>
-							<?php echo _("comp_electronique");?>
+							<li>Programmation de microcontrôleurs Microchip</li>
+							<li>Configuration modules Microchip (MRF24J40, MRF24WB0)</li>
 						</ul>
 					</div>
 				</div>
@@ -63,9 +62,12 @@ textdomain($domain);
 				<div class="thumbnail">
 					<h1 class="text-center"><b class="glyphicon glyphicon-hdd"></b></h1>
 					<div class="caption">
-						<h4><?php echo _("comp_informatique_titre");?></h4>
+						<h4>Informatique</h4>
 						<ul>
-							<?php echo _("comp_informatique");?>
+							<li><strong>Administration système et réseaux Linux</strong></li>
+							<li>Virtualisation KVM</li>
+							<li>Bridging, VLAN</li>
+							<li>Apache2, Nginx</li>
 						</ul>
 					</div>
 				</div>
@@ -74,9 +76,11 @@ textdomain($domain);
 				<div class="thumbnail">
 					<h1 class="text-center"><b class="glyphicon glyphicon-comment"></b></h1>
 					<div class="caption">
-						<h4><?php echo _("comp_developpement_titre");?></h4>
+						<h4>Développement</h4>
 						<ul>
-							<?php echo _("comp_developpement");?>
+							<li><strong>Web</strong> : HTML5, CSS, PHP, <em>Symfony2</em></li>
+							<li><strong>BDD</strong> : MySQL, PostgreSQL, MS Access</li>
+							<li><strong>Langages divers</strong> : MATLAB, C/C++, Latex</li>
 						</ul>
 					</div>
 				</div>
