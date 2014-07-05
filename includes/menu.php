@@ -13,7 +13,7 @@
 				<ul class="nav navbar-nav">
 					<li class="cv"><a href="cv.php"><b class="glyphicon glyphicon-file"></b> CV</a></li>
 					<li class="competences"><a href="competences.php"><b class="glyphicon glyphicon-wrench"></b>  Compétences</a></li>
-					<li class="projets"><a href="projets.php">Projets</a></li>
+					<li class="projets"><a href="projets.php"><b class="glyphicon glyphicon-check"></b> Projets</a></li>
 				</ul>
 			</div>
 		</div>

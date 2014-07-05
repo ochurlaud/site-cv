@@ -1,7 +1,7 @@
 <div id="bandeau" class="navbar">
 	<div class="container">
 		<div class="col-sm-3 col-md-2">
-			<img id="photo_id" src="img/ID_ochurlaud.png" alt="Olivier CHURLAUD" height="150px"/>
+			<img id="photo_id" src="img/ID_ochurlaud.jpg" alt="Olivier CHURLAUD" height="150px"/>
 		</div>
 		<div class="col-sm-8 col-md-4">
 			<address>
