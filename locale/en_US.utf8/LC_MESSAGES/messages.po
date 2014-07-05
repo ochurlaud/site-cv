@@ -1,0 +1,22 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-30 21:29+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en_US.utf8\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: index.php:15
+msgid "Accueil"
+msgstr "<p>Welcome to my website.</p>\n<p>You'll find here my detailed résumé, some of skills I gained and a insight of the project which I worked on.</p>\n<p>I'm currently studying Engineering at &Eacute;cole Centrale de Lyon (France). I'm a sciences and technologies enthousiast: from mathematics to computer sciences (networks, linux and some programming), through to electromagnetism or signal processing but I'm also found of litterature, cinema and especially music.</p>\n<p>Enjoy your visit here, and feel free to get in touch with me for comments, propositions or just a little talk!</p>"

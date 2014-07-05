@@ -1,0 +1,243 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid "cv_"
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-30 21:44+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: general
+msgid "et"
+msgstr "et"
+
+#: general
+msgid "Compétences"
+msgstr "Compétences"
+
+##
+# Index, page d'accueil
+##
+
+#: index.php:15
+msgid "Accueil"
+msgstr "<p>Bienvenue sur ma page personnelle.</p>\n<p>Vous trouverez ici mon <em>curriculum vitae</em> détaillé, les compétences que j'ai acquises ainsi qu'un aperçu des projets auxquels j'ai participés.</p>\n<p>Actuellement élève-ingénieur à l'&Eacute;cole Centrale de Lyon, je m'intéresse à à peu près tout ce qui se présente à moi : sciences (mathématiques, électromagnétisme, traitement du signal...), informatique (réseaux, linux, développement) mais aussi littérature, cinéma et musique.</p>\n<p>Bonne visite sur mon site, et n'hésitez pas à me contacter pour des remarques, propositions ou juste pour discuter !</p>"
+
+##
+# cv.php
+##
+
+## Etudes
+
+#: cv.php
+msgid "cv_h1_etudes"
+msgstr "&Eacute;tudes"
+
+#: cv.php
+msgid "cv_etudes_centrale"
+msgstr "<strong>École Centrale de Lyon</strong> : Préparation du diplôme d'<strong>Ingénieur Généraliste</strong>"
+
+#: cv.php
+msgid "cv_etudes_prepa"
+msgstr "<strong>Classe préparatoire Maths-Physiques (MP)</strong> au lycée <strong>Pierre de Fermat</strong> de Toulouse (31)"
+
+#: cv.php
+msgid "cv_etudes_lycee"
+msgstr "<strong>Lycée Pilote Innovant International</strong> (86) : Baccalauréat Scientifique mention <em>Très Bien</em>"
+
+## Experiences
+
+#: cv.php
+msgid "cv_h1_exp"
+msgstr "Expériences"
+
+#: cv.php
+msgid "cv_exp_titre"
+msgstr "Projets"
+
+#: cv.php
+msgid "cv_exp_par"
+msgstr "<strong>Projet de Recherche : Conception et création d'un module de transmission WPAN-WLAN</strong><br />\nCollaboration avec le laboratoire INL (Lyon)<br />\n<em>Programmation C</em> - <em>Conception KICAD</em> - <em>Microcontrôleurs Microchip</em>"
+
+#: cv.php
+msgid "cv_exp_eclair"
+msgstr "<strong>Président de l'association ECLAIR</strong> (association loi 1901 gérant l'informatique et le réseau de l'École Centrale de Lyon : 700 utilisateurs)<br />\nMise en place d'un Cloud, Conception d'un méta-site interne pour les élèves et anciens élèves"
+
+#: cv.php
+msgid "cv_exp_pe"
+msgstr "<strong>Projet d’Étude : Création d'un outil de mesure des champs magnétiques de basse fréquence</strong><br />\nCollaboration avec le Laboratoire Ampère (Lyon)<br />\n<em>Programmation MATLAB</em> - <em>Mise en œuvre d'un magnétomètre</em>"
+
+#: cv.php
+msgid "cv_exp_acf_univers"
+msgstr "<strong>Projet de recherche en physique des particules en partenariat avec le CERN et l'IN2P3</strong><br />\nProjet soutenu aux Olympiades de Physiques (1er prix), aux Faites de la Science (1er prix)<br />\n<em>Expérimentations</em> - <em>Vulgarisation</em> - <em>Conception d'un jeu de plateau sur le thème du LHC</em>"
+
+#: cv.php
+msgid "cv_exp_acf_ouvroir"
+msgstr "<strong>Projet d'Atelier d'écriture en partenariat avec l'OuLiPo</strong> (Ouvroir de Littérature Potentielle : groupement d'écrivains qui travaille en se choisissant des contraintes de fond et de forme)"
+
+#: cv.php
+msgid "cv_exp_pro_titre"
+msgstr "Expériences professionnelles"
+
+#: cv.php
+msgid "cv_exp_pro_application"
+msgstr "<strong>Stage d'application : Télécom Bretagne, avec <a href=\"http://public.telecom-bretagne.eu/~fandriul/\" title=\"F.P. Andriulli Research Group webpage\" alt=\"F.P. Andriulli Research Group webpage\">Francesco P. Andriulli</a></strong> - Analyse et développement de techniques et d'outils expérimentaux et computationnels pour l'imagerie cérébrale par encéphalogramme"
+
+#: cv.php
+msgid "cv_exp_pro_execution"
+msgstr "<strong>Stage ouvrier : SNCF</strong> - Maintenance de locomotives BB26000 (Technicentre SNCF Oullins)"
+
+#: cv.php
+msgid "cv_exp_pro_demenagement"
+msgstr "<strong>Emploi saisonnier</strong> - Manutention dans une entreprise de déménagement (BIARDEAU SARL, à Niort)"
+
+## Compétences
+
+#: cv.php
+msgid "cv_h1_competences"
+msgstr "Compétences"
+
+#: cv.php
+msgid "cv_comp_management_header"
+msgstr "Management"
+
+#: cv.php
+msgid "cv_comp_management"
+msgstr "Chef de projet, coordination d'équipes, lien entre administration et équipe"
+
+#: cv.php
+msgid "cv_comp_sciences_header"
+msgstr "Sciences"
+
+#: cv.php
+msgid "cv_comp_sciences"
+msgstr "Traitement du signal, Filtragen &Eacute;lectromagnetisme, Mathématiques"
+
+#: cv.php
+msgid "cv_comp_informatique_header"
+msgstr "Informatique"
+
+#: cv.php
+msgid "cv_comp_informatique"
+msgstr "Internet HTML5, CSS, PHP, MySQL, Symfony2 - Administration système et réseaux Linux, Bridging, VLAN, Virtualisation KVM, Apache2 - Programme MS Access, MATLAB, C/C++, Latex"
+
+#: cv.php
+msgid "cv_comp_langues_header"
+msgstr "Langues"
+
+#: cv.php
+msgid "cv_comp_anglais"
+msgstr "Anglais - Lu, écrit, parlé : TOEFL 613pts"
+
+#: cv.php
+msgid "cv_comp_allemand"
+msgstr "Allemand - Lu, écrit, parlé : Certificat de niveau B2 en allemand en 2014 (Système de notation Européen)"
+
+## Centres d'intéret
+
+#: cv.php
+msgid "cv_h1_interet"
+msgstr "Centres d'intérêt"
+
+#: cv.php
+msgid "cv_interet_titre"
+msgstr "Culturel"
+
+#: cv.php
+msgid "cv_interet_litterature_header"
+msgstr "Littérature"
+
+#: cv.php
+msgid "cv_interet_litterature"
+msgstr "Littérature classique du XIX-XXe siècle et Nouveau Roman"
+
+#: cv.php
+msgid "cv_interet_cinema_header"
+msgstr "Cinéma"
+
+#: cv.php
+msgid "cv_interet_cinema"
+msgstr "Cinéma d'auteur et des années 40-50"
+
+#: cv.php
+msgid "cv_interet_musique_header"
+msgstr "Musique"
+
+#: cv.php
+msgid "cv_interet_musique"
+msgstr "Jazz, Musique électronique, Rock"
+
+#: cv.php
+msgid "cv_interet_sport_titre"
+msgstr "Sport"
+
+#: cv.php
+msgid "cv_interet_sport_header"
+msgstr "Sports de montagne"
+
+#: cv.php
+msgid "cv_interet_sport"
+msgstr "Ski, escalade, randonnée"
+
+##
+# competences.php
+##
+
+# competences.php
+msgid "comp_management_titre"
+msgstr "Management"
+
+# competences.php
+msgid "comp_management"
+msgstr "<li>Chef de projet</li>\n<li>Coordination d'équipes</li>\n<li>Gestion d'échéances</li>"
+
+# competences.php
+msgid "comp_sciences_titre"
+msgstr "Science"
+
+# competences.php
+msgid "comp_sciences"
+msgstr "<li>Traitement du signal, Filtrage</li>\n<li>&Eacute;lectromagnetisme</li>\n<li>Mathématiques</li>"
+
+# competences.php
+msgid "comp_langues_titre"
+msgstr "Langues"
+
+# competences.php
+msgid "comp_langues"
+msgstr "<li><strong>Francais</strong> : Langue maternelle</li>\n<li><strong>Anglais</strong> : Lu, écrit, parlé (~fluide) - TOEFL 613pts (2014)</li>\n<li><strong>Allemand</strong> : Lu, écrit, parlé (~fluide) - B2 (2014)</li>"
+
+# competences.php
+msgid "comp_electronique_titre"
+msgstr "&Eacute;lectronique"
+
+# competences.php
+msgid "comp_electronique"
+msgstr "<li>Programmation de microcontrôleurs Microchip</li>\n<li>Configuration modules Microchip (MRF24J40, MRF24WB0)</li>"
+
+# competences.php
+msgid "comp_informatique_titre"
+msgstr "Informatique"
+
+# competences.php
+msgid "comp_informatique"
+msgstr "<li><strong>Administration système et réseaux Linux</strong></li>\n<li>Virtualisation KVM</li>\n<li>Bridging, VLAN</li>\n<li>Apache2, Nginx</li>"
+
+# competences.php
+msgid "comp_developpement_titre"
+msgstr "Développement"
+
+# competences.php
+msgid "comp_developpement"
+msgstr "<li><strong>Web</strong> : HTML5, CSS, PHP, <em>Symfony2</em></li>\n<li><strong>BDD</strong> : MySQL, PostgreSQL, MS Access</li>\n<li><strong>Langages divers</strong> : MATLAB, C/C++, Latex</li>"
