@@ -1,13 +1,5 @@
 <?php require_once('includes/headers.php');?>
-<?php
-$language = 'fr_FR.utf8';
-putenv("LANG=$language"); 
-setlocale(LC_ALL, $language);
-// Set the text domain as 'messages'
-$domain = 'messages';
-bindtextdomain($domain, "./locale"); 
-textdomain($domain);
-?>
+
 	<h1 class="page-header"><?php echo _("Compétences");?></h1> 
 
 	<div id="competences">

@@ -23,6 +23,14 @@ msgid "et"
 msgstr "et"
 
 #: general
+msgid "ans"
+msgstr "ans"
+
+#: general
+msgid "né le 7 avril 1992"
+msgstr "né le 7 avril 1002"
+
+#: general
 msgid "Compétences"
 msgstr "Compétences"
 

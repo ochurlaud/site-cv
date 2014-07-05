@@ -1,12 +1,5 @@
-﻿<?php require_once('includes/headers.php');
-$language = 'fr_FR.utf8';
-putenv("LANG=$language"); 
-setlocale(LC_ALL, $language);
-// Set the text domain as 'messages'
-$domain = 'messages';
-bindtextdomain($domain, "./locale"); 
-textdomain($domain);
-?>
+﻿<?php require_once('includes/headers.php');?>
+
 	<div class="container-fluid col-lg-10 col-lg-offset-1">
 
 		<h1 class="page-header"><?php echo _("cv_h1_etudes");?></h1> 

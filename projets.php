@@ -1,13 +1,5 @@
 <?php require_once('includes/headers.php');?>
-<?php
-$language = 'fr_FR.utf8';
-putenv("LANG=$language"); 
-setlocale(LC_ALL, $language);
-// Set the text domain as 'messages'
-$domain = 'messages';
-bindtextdomain($domain, "./locale"); 
-textdomain($domain);
-?>
+
 	<h1 class="page-header"><?php echo _("Projets");?></h1> 
 
 	<div class="container-fluid col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
