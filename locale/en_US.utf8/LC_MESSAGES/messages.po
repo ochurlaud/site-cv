@@ -78,8 +78,7 @@ msgstr "<strong>École Centrale de Lyon</strong> : Préparation du diplôme d'<
 
 #: cv.php
 msgid "cv_etudes_prepa"
-msgstr "<strong>Elite undergraduate program:</strong> lycée Pierre de Fermat in Toulouse (31), Preparation for
-the competitive entrance examinations to French engineering school"
+msgstr "<strong>Elite undergraduate program:</strong> lycée Pierre de Fermat in Toulouse (31), Preparation for the competitive entrance examinations to French engineering school"
 
 
 #: cv.php
@@ -102,7 +101,7 @@ msgstr "<strong>Research: Design of a node connecting WPAN and WLAN networks</st
 
 #: cv.php
 msgid "cv_exp_eclair"
-msgstr "<strong>President of the ECLAIR students association</strong> (which manages the network and IT of Centrale students : more than 700 users)<br />\n <em>Setup of a Cloud storage (based on ownCloud)</em> - <em>Design of a meta-website for the students and alumni</em> - <em>Network administration</em>""
+msgstr "<strong>President of the ECLAIR students association</strong> (which manages the network and IT of Centrale students : more than 700 users)<br />\n <em>Setup of a Cloud storage (based on ownCloud)</em> - <em>Design of a meta-website for the students and alumni</em> - <em>Network administration</em>"
 
 #: cv.php
 msgid "cv_exp_pe"
@@ -114,7 +113,7 @@ msgstr "<strong>Research projct in particle physics with CERN and IN2P3</strong>
 
 #: cv.php
 msgid "cv_exp_acf_ouvroir"
-msgstr ""<strong>Writing workshop in partnership with OuLiPo </strong> (Ouvroir de Littérature Potentielle : group of french writers who work by choosing style and content constraints)"
+msgstr "<strong>Writing workshop in partnership with OuLiPo</strong> (Ouvroir de Littérature Potentielle: group of french writers who work by choosing style and content constraints)"
 
 #: cv.php
 msgid "cv_exp_pro_titre"
@@ -190,7 +189,7 @@ msgstr "Literature"
 
 #: cv.php
 msgid "cv_interet_litterature"
-msgstr "Classics from the XIXth and XXth century and <em>Nouveau Roman</em>"Littérature classique du XIX-XXe siècle et Nouveau Roman"
+msgstr "Classics from the XIXth and XXth century and <em>Nouveau Roman</em>"
 
 #: cv.php
 msgid "cv_interet_cinema_header"

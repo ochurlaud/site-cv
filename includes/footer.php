@@ -1,7 +1,8 @@
 	</div>
 	<div id="footer">
 		<div class="container center-block">
-			Olivier CHURLAUD - 2014
+			Olivier CHURLAUD - <?php echo strftime('%d %B %Y',exec('git log -1 --format="%ct"'));?>
+			<span style="color:#555;   font-style:italic;"> (<?php echo exec('git log -1 --format="%h"') .': ' . exec('git log -1 --format="%s"') . ')';?></span>
 		</div>
 	</div>
 
