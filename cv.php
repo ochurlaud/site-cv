@@ -5,6 +5,12 @@
 		<h1 class="page-header"><?php echo _("cv_h1_etudes");?></h1> 
 
 		<div class="topic row">
+			<div class="topic-header col-sm-3 col-md-2">2014 - 2016</div>
+			<div class="topic-content col-sm-9 col-md-10">
+				<?php echo _("cv_etudes_tuberlin");?>
+			</div>
+		</div>
+		<div class="topic row">
 			<div class="topic-header col-sm-3 col-md-2">2012 - 2016</div>
 			<div class="topic-content col-sm-9 col-md-10">
 				<?php echo _("cv_etudes_centrale");?>
@@ -103,7 +109,7 @@
 			</div>
 		</div>
 		
-		<h1 class="page-header">Centres d’intérêt</h1>
+		<h1 class="page-header"><?php echo _("cv_h1_interet");?></h1>
 			<h3><?php echo _("cv_interet_titre"); ?></h3>
 		<div class="topic row">
 			<div class="topic-header col-sm-3 col-md-2"><?php echo _("cv_interet_litterature_header"); ?></div>

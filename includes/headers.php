@@ -1,13 +1,11 @@
 <?php
+
+	session_start();
+
 	$age = (date('m') >= 4 && date('d') >= 7) ? (int) date('Y') - 1992 : (int) date('Y') - 1992 - 1 ;
-	$language = 'fr_FR.utf8';
-	putenv("LANG=$language"); 
-	setlocale(LC_ALL, $language);
-	// Set the text domain as 'messages'
-	$domain = 'messages';
-	bindtextdomain($domain, "./locale"); 
-textdomain($domain);
 ?>
+
+<?php require_once('includes/languages.php');?>
 
 <!DOCTYPE html>
 <html>
@@ -31,4 +29,3 @@ textdomain($domain);
 	<?php require_once('includes/bandeau.php');?>
 
 	<div id="content" class="container well">
-	

@@ -14,9 +14,11 @@
 					<li class="cv"><a href="cv.php"><b class="glyphicon glyphicon-file"></b> <?php echo _("CV");?></a></li>
 					<li class="competences"><a href="competences.php"><b class="glyphicon glyphicon-wrench"></b>  <?php echo _("Compétences");?></a></li>
 					<li class="projets"><a href="projets.php"><b class="glyphicon glyphicon-check"></b> <?php echo _("Projets");?></a></li>
-					<li><form>&nbsp; <a class="btn btn-info btn-xs navbar-btn" href="download/olivier_churlaud-cv-fr.pdf" target="_blank"><b class="glyphicon glyphicon-download-alt"></b> <?php echo _("CV");?></a></form></li>
+					<li><form>&nbsp; <a class="btn btn-info btn-xs navbar-btn" href="download/<?php echo _("file_cv");?>" target="_blank"><b class="glyphicon glyphicon-download-alt"></b> <?php echo _("CV");?></a></form></li>
 				</ul>
-				<p class="navbar-text navbar-right "><a href="#" class="label label-primary">fr </a> &nbsp; <a href="#" class="label label-default">en</a></p>
+
+				<form class="navbar-form navbar-right lang-form" method="POST"><input name="lang" type="hidden" value="en"><button type="submit" title="language: en" class="btn btn-xs <?php echo $btn_en;?>">en</button></form>
+				<form class="navbar-form navbar-right lang-form" method="POST"><input name="lang" type="hidden" value="fr"><button type="submit" title="language: fr" class="btn btn-xs <?php echo $btn_fr;?>">fr</button></form>
 			</div>
 		</div>
 	</div>
