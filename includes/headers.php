@@ -12,12 +12,12 @@ textdomain($domain);
 <!DOCTYPE html>
 <html>
     <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="utf-8" />
-        <title>Olivier CHURLAUD</title>
-        <meta name="description" content="Page personnelle d'Olivier CHURLAUD : cv, competences, projets..." />
-        <meta name="keywords" content="olivier churlaud, olivier, churlaud, cv, resume, curriculum, vitae, projets" />
-        <meta name="robots" content="index, follow" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <meta name="description" content="<?php echo _("meta_description");?>" />
+    <meta name="keywords" content="olivier churlaud, olivier, churlaud, cv, resume, curriculum, vitae, projets" />
+    <meta name="robots" content="index, follow" />
+    <title>Olivier CHURLAUD</title>
 	<link rel="shortcut icon" type="image/png" href="favicon.png" />
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
