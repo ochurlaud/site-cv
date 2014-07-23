@@ -32,7 +32,15 @@ msgstr "ans"
 
 #: general
 msgid "né le 7 avril 1992"
-msgstr "né le 7 avril 1002"
+msgstr "né le 7 avril 1992"
+
+#: general
+msgid "linkedin"
+msgstr "http://fr.linkedin.com/in/olivierchurlaud/"
+
+#: general
+msgid "CV"
+msgstr "CV"
 
 #: general
 msgid "Compétences"
@@ -43,16 +51,8 @@ msgid "Projets"
 msgstr "Projets"
 
 #: general
-msgid "Présentation"
-msgstr "Présentation"
-
-#: general
-msgid "Responsabilités"
-msgstr "Responsabilités"
-
-#: general
-msgid "Liens"
-msgstr "Liens"
+msgid "file_cv"
+msgstr "olivier_churlaud-cv-fr.pdf"
 
 ##
 # Index, page d'accueil
@@ -71,6 +71,10 @@ msgstr "<p>Bienvenue sur ma page personnelle.</p>\n<p>Vous trouverez ici mon <em
 #: cv.php
 msgid "cv_h1_etudes"
 msgstr "&Eacute;tudes"
+
+#: cv.php
+msgid "cv_etudes_tuberlin"
+msgstr "<strong>TU Berlin</strong> : Double diplôme, <strong>Master en &Eacute;lectrotechnique</strong>"
 
 #: cv.php
 msgid "cv_etudes_centrale"
@@ -166,11 +170,11 @@ msgstr "Langues"
 
 #: cv.php
 msgid "cv_comp_anglais"
-msgstr "Anglais - Lu, écrit, parlé : TOEFL 613pts"
+msgstr "<strong>Anglais</strong> - Lu, écrit, parlé : TOEFL 613pts"
 
 #: cv.php
 msgid "cv_comp_allemand"
-msgstr "Allemand - Lu, écrit, parlé : Certificat de niveau B2 en allemand en 2014 (Système de notation Européen)"
+msgstr "<strong>Allemand</strong> - Lu, écrit, parlé : Certificat de niveau B2 en allemand en 2014 (Système de notation Européen)"
 
 ## Centres d'intéret
 
@@ -274,7 +278,20 @@ msgstr "<li><strong>Web</strong> : HTML5, CSS, PHP, <em>Symfony2</em></li>\n<li>
 # projets.php
 ##
 
+#: projets.php
+msgid "Présentation"
+msgstr "Présentation"
+
+#: projets.php
+msgid "Responsabilités"
+msgstr "Responsabilités"
+
+#: projets.php
+msgid "Liens"
+msgstr "Liens"
+
 ## PAr
+
 # projets.php
 msgid "projet_par_titre"
 msgstr "Conception et création d'un module de transmission WPAN-WLAN"
@@ -313,7 +330,7 @@ msgstr "Physique des particules : L'Univers des Particules"
 
 # projets.php
 msgid "projet_univers_presentation"
-msgstr "<p>Projet de recherche en physique des particules en partenariat avec le CERN&nbsp;[<a href=\"http://home.web.cern.ch/fr\" alt=\"Site web du CERN\">1</a>] et l'IN2P3&nbsp;[<a href=\"http://www.in2p3.fr/\" alt=\"Site web de l'IN2P3\">2</a>], dans le cadre des <acronym title=\"Activités Complémentaires de Formation\">ACF</acronym> du Lycée Pilote Innovant International (LP2I)&nbsp;[<a href=\"http://www.lp2i-poitiers.fr\" alt=\"Site web du LP2I\">3</a>].</p>\n<p>Comme l'actualité autour du <acronym title=\"Large Hadron Collider\">LHC</acronym> du CERN était très importante, nous avons rejoint un professeur passionné dans cette aventure. Nous avons marché sur les pas de Pierre Augier&nbsp;[<a href=\"http://fr.wikipedia.org/wiki/Pierre_Auger\" alt=\"Wikipedia Pierre Auger\">4</a>] à la poursuite des muons&nbsp;[<a href=\"http://fr.wikipedia.org/wiki/Muon\" alt=\"Wikipedia Muon\">5</a>].</p>\n<p>Le projet a été présenté aux concours <em>C-Génial</em>, <em>Faites de la Science</em> (1er prix) et aux <em>Olympiades de Physique</em> (1er prix).</p>"
+msgstr "<p>Projet de recherche en physique des particules en partenariat avec le CERN&nbsp;[<a href=\"http://home.web.cern.ch/fr\" alt=\"Site web du CERN\">1</a>] et l'IN2P3&nbsp;[<a href=\"http://www.in2p3.fr/\" alt=\"Site web de l'IN2P3\">2</a>], dans le cadre des <acronym title=\"Activités Complémentaires de Formation\">ACF</acronym> du Lycée Pilote Innovant International (LP2I)&nbsp;[<a href=\"http://www.lp2i-poitiers.fr\" alt=\"Site web du LP2I\">3</a>].</p>\n<p>Comme l'actualité autour du <acronym title=\"Large Hadron Collider\">LHC</acronym> du CERN était très importante, nous avons rejoint un professeur passionné dans cette aventure. Nous avons marché sur les pas de Pierre Auger&nbsp;[<a href=\"http://fr.wikipedia.org/wiki/Pierre_Auger\" alt=\"Wikipedia Pierre Auger\">4</a>] à la poursuite des muons&nbsp;[<a href=\"http://fr.wikipedia.org/wiki/Muon\" alt=\"Wikipedia Muon\">5</a>].</p>\n<p>Le projet a été présenté aux concours <em>C-Génial</em>, <em>Faites de la Science</em> (1er prix) et aux <em>Olympiades de Physique</em> (1er prix).</p>"
 
 # projets.php
 msgid "projet_univers_responsabilites"
@@ -321,7 +338,7 @@ msgstr "<p>Chef de projet, expérimentateur, vulgarisation des sciences liées a
 
 # projets.php
 msgid "projet_univers_liens"
-msgstr "<li>[1] CERN <a href=\"http://home.web.cern.ch/fr\" alt=\"Site web du CERN\">home.web.cern.ch/fr</a></li>\n<li>[2] Laboratoire IN2P3 <a href=\"http://www.in2p3.fr/\" alt=\"Site web de l'IN2P3\">www.in2p3.fr</a></li>\n<li>[3] Lycée Pilote Innovant International<a href=\"http://www.lp2i-poitiers.fr\" alt=\"Site web du LP2I\">www.lp2i-poitiers.fr</a></li>\n<li>[4] <a href=\"http://fr.wikipedia.org/wiki/Pierre_Auger\" alt=\"Wikipedia Pierre Auger\">Pierre Auger (wikipedia)</a></li>\n<li>[5] <a href=\"http://fr.wikipedia.org/wiki/Pierre_Auger\" alt=\"Wikipedia Muon\">Muon (wikipedia)</a></li>\n<li>[Pour en savoir plus] <a href=\"download/projects/memoire_CGenial.pdf\" alt=\"memoire du projet\">Mémoire présenté à C-Génial</a></li>"
+msgstr "<li>[1] CERN <a href=\"http://home.web.cern.ch/fr\" alt=\"Site web du CERN\">home.web.cern.ch/fr</a></li>\n<li>[2] Laboratoire IN2P3 <a href=\"http://www.in2p3.fr/\" alt=\"Site web de l'IN2P3\">www.in2p3.fr</a></li>\n<li>[3] Lycée Pilote Innovant International<a href=\"http://www.lp2i-poitiers.fr\" alt=\"Site web du LP2I\">www.lp2i-poitiers.fr</a></li>\n<li>[4] <a href=\"http://fr.wikipedia.org/wiki/Pierre_Auger\" alt=\"Wikipedia Pierre Auger\">Pierre Auger (wikipedia)</a></li>\n<li>[5] <a href=\"http://fr.wikipedia.org/wiki/Muon\" alt=\"Wikipedia Muon\">Muon (wikipedia)</a></li>\n<li>[Pour en savoir plus] <a href=\"download/projects/memoire_CGenial.pdf\" alt=\"memoire du projet\">Mémoire présenté à C-Génial</a></li>"
 
 ## Ouvroir
 
@@ -331,7 +348,7 @@ msgstr "Projet littéraire : L'Ouvroir"
 
 # projets.php
 msgid "projet_ouvroir_presentation"
-msgstr "<p>Projet d'atelier d'écriture en partenariat avec l'OuLiPo&nbsp;[<a href=\"http://www.oulipo.net/\" alt=\"Site web de l'OuLiPo\">1</a>], dans le cadre des <acronym title=\"Activités Complémentaires de Formation\">ACF</acronym> du Lycée Pilote Innovant International (LP2I)&nbsp;[<a href=\"http://www.lp2i-poitiers.fr\" alt=\"Site web du LP2I\">2</a>].</p>\n<p>Invention de contraintes littéraires, échanges avec les membres de l'OuLiPo, écriture à 10 mains d'un recueil de nouvelles. Tous les textes sont regroupés sur le site du projet&nbsp;[<a href=\"http://www.lp2i-poitiers.fr/doc/annee_08_09/acf_08_09/acf_louvroir/\" alt=\"Site web du projet\">3</a>].</p>\n<p>Bien que ce projet commence à dater un petit peu, il reste pour moi une grande aventure littéraire, peut-être fondatrice de ce que je suis aujourd'hui.</p>"
+msgstr "<p>Projet d'atelier d'écriture en partenariat avec l'OuLiPo&nbsp;[<a href=\"http://www.oulipo.net/\" alt=\"Site web de l'OuLiPo\">1</a>], dans le cadre des <acronym title=\"Activités Complémentaires de Formation\">ACF</acronym> du Lycée Pilote Innovant International (LP2I)&nbsp;[<a href=\"http://www.lp2i-poitiers.fr\" alt=\"Site web du LP2I\">2</a>].</p>\n<p>Invention de contraintes littéraires, échanges avec les membres de l'OuLiPo, écriture à 20 mains d'un recueil de nouvelles. Tous les textes sont regroupés sur le site du projet&nbsp;[<a href=\"http://www.lp2i-poitiers.fr/doc/annee_08_09/acf_08_09/acf_louvroir/\" alt=\"Site web du projet\">3</a>].</p>\n<p>Bien que ce projet commence à dater un petit peu, il reste pour moi une grande aventure littéraire, peut-être fondatrice de ce que je suis aujourd'hui.</p>"
 
 # projets.php
 msgid "projet_ouvroir_responsabilites"

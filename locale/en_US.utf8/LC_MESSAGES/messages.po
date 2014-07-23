@@ -20,39 +20,39 @@ msgstr ""
 
 #: general
 msgid "meta_description"
-msgstr "Page personnelle d'Olivier CHURLAUD : cv, competences, projets..."
+msgstr "Olivier CHURLAUD's page: resume, expertise, projects..."
 
 #: general
 msgid "et"
-msgstr "et"
+msgstr "and"
 
 #: general
 msgid "ans"
-msgstr "ans"
+msgstr " "
 
 #: general
 msgid "né le 7 avril 1992"
-msgstr "né le 7 avril 1002"
+msgstr "born on april 7th, 1992"
+
+#: general
+msgid "linkedin"
+msgstr "http://fr.linkedin.com/in/olivierchurlaud/en"
+
+#: general
+msgid "CV"
+msgstr "<i>Résumé</i>"
 
 #: general
 msgid "Compétences"
-msgstr "Compétences"
+msgstr "Expertise"
 
 #: general
 msgid "Projets"
-msgstr "Projets"
+msgstr "Projects"
 
 #: general
-msgid "Présentation"
-msgstr "Présentation"
-
-#: general
-msgid "Responsabilités"
-msgstr "Responsabilités"
-
-#: general
-msgid "Liens"
-msgstr "Liens"
+msgid "file_cv"
+msgstr "olivier_churlaud-cv-en.pdf"
 
 ##
 # Index, page d'accueil
@@ -73,8 +73,12 @@ msgid "cv_h1_etudes"
 msgstr "Education"
 
 #: cv.php
+msgid "cv_etudes_tuberlin"
+msgstr "<strong>TU Berlin</strong> : <strong>Master's degree in Electrotechnics</strong> (dual degree)"
+
+#: cv.php
 msgid "cv_etudes_centrale"
-msgstr "<strong>École Centrale de Lyon</strong> : Préparation du diplôme d'<strong>Ingénieur Généraliste</strong>"
+msgstr "<strong>École Centrale de Lyon</strong>: enrolled in a <strong>engineering degree</strong>"
 
 #: cv.php
 msgid "cv_etudes_prepa"
@@ -83,7 +87,7 @@ msgstr "<strong>Elite undergraduate program:</strong> lycée Pierre de Fermat in
 
 #: cv.php
 msgid "cv_etudes_lycee"
-msgstr "<strong>Lycée Pilote Innovant International</strong> (86) :  innovative, pilot and international high-school. </em>French scientific Baccalauréat</em>"
+msgstr "<strong>Highschool - Lycée Pilote Innovant International</strong> (86):  innovative, pilot and international high-school. </em>French scientific Baccalauréat</em>"
 
 ## Experiences
 
@@ -101,11 +105,11 @@ msgstr "<strong>Research: Design of a node connecting WPAN and WLAN networks</st
 
 #: cv.php
 msgid "cv_exp_eclair"
-msgstr "<strong>President of the ECLAIR students association</strong> (which manages the network and IT of Centrale students : more than 700 users)<br />\n <em>Setup of a Cloud storage (based on ownCloud)</em> - <em>Design of a meta-website for the students and alumni</em> - <em>Network administration</em>"
+msgstr "<strong>President of the ECLAIR students association</strong> (which manages the network and IT of Centrale students: more than 700 users)<br />\n <em>Setup of a Cloud storage (based on ownCloud)</em> - <em>Design of a meta-website for the students and alumni</em> - <em>Network administration</em>"
 
 #: cv.php
 msgid "cv_exp_pe"
-msgstr "<strong>Student project: Design of a tool to measure extremely low magnetic fields</strong><br />\nCollaboration with the Amère Laboratory (Lyon)<br />\n<em>MATLAB program</em> - <em>Setup of a magnetometer on a chip</em>"
+msgstr "<strong>Student project: Design of a tool to measure extremely low frequency magnetic fields</strong><br />\nCollaboration with the Amère Laboratory (Lyon)<br />\n<em>MATLAB program</em> - <em>Setup of a magnetometer on a chip</em>"
 
 #: cv.php
 msgid "cv_exp_acf_univers"
@@ -121,7 +125,7 @@ msgstr "Work Experience"
 
 #: cv.php
 msgid "cv_exp_pro_application"
-msgstr "<strong>Research application:with <a href=\"http://public.telecom-bretagne.eu/~fandriul/\" title=\"F.P. Andriulli Research Group webpage\" alt=\"F.P. Andriulli Research Group webpage\">Francesco P. Andriulli</a> (Télécom Bretagne)</strong> - Analysis and design of technics and tools for experiments and computation on EEG material"
+msgstr "<strong>Research application with <a href=\"http://public.telecom-bretagne.eu/~fandriul/\" title=\"F.P. Andriulli Research Group webpage\" alt=\"F.P. Andriulli Research Group webpage\">Francesco P. Andriulli</a> (Télécom Bretagne)</strong> - Analysis and design of technics and tools for experiments and computation on EEG material"
 
 #: cv.php
 msgid "cv_exp_pro_execution"
@@ -167,11 +171,11 @@ msgstr "Languages"
 
 #: cv.php
 msgid "cv_comp_anglais"
-msgstr "English - Fluent : TOEFL 613pts (B2/C1)"
+msgstr "<strong>English</strong> - Fluent : TOEFL 613pts (B2/C1)"
 
 #: cv.php
 msgid "cv_comp_allemand"
-msgstr "German - Professional skills : B2 (European notation system)"
+msgstr "<strong>German</strong> - Professional skills : B2 (European notation system)"
 
 ## Centres d'intéret
 
@@ -217,7 +221,7 @@ msgstr "Mountain sports"
 
 #: cv.php
 msgid "cv_interet_sport"
-msgstr "Ski, rock climbing, hike"
+msgstr "Ski, rock climbing, hiking"
 
 ##
 # competences.php
@@ -245,7 +249,7 @@ msgstr "Languages"
 
 # competences.php
 msgid "comp_langues"
-msgstr "<li><strong>French</strong> : Native language</li>\n<li><strong>English</strong>: Fluent - TOEFL 613pts (2014)</li>\n<li><strong>German</strong> : Professional skills (~fluent) - B2 (2014)</li>"
+msgstr "<li><strong>French</strong>: Native language</li>\n<li><strong>English</strong>: Fluent - TOEFL 613pts (2014)</li>\n<li><strong>German</strong>: Professional skills (~fluent) - B2 (2014)</li>"
 
 # competences.php
 msgid "comp_electronique_titre"
@@ -269,75 +273,88 @@ msgstr "Program"
 
 # competences.php
 msgid "comp_developpement"
-msgstr "<li><strong>Web</strong> : HTML5, CSS, PHP, <em>Symfony2</em></li>\n<li><strong>BDD</strong> : MySQL, PostgreSQL, MS Access</li>\n<li><strong>Other languages</strong> : MATLAB, C/C++, Latex</li>"
+msgstr "<li><strong>Web</strong>: HTML5, CSS, PHP, <em>Symfony2</em></li>\n<li><strong>BDD</strong>: MySQL, PostgreSQL, MS Access</li>\n<li><strong>Other languages</strong>: MATLAB, C/C++, Latex</li>"
 
 ##
 # projets.php
 ##
+
+#: projets.php
+msgid "Présentation"
+msgstr "Overview"
+
+#: projets.php
+msgid "Responsabilités"
+msgstr "Responsabilities"
+
+#: projets.php
+msgid "Liens"
+msgstr "Links"
 
 ## PAr
+
 # projets.php
 msgid "projet_par_titre"
-msgstr "Conception et création d'un module de transmission WPAN-WLAN"
+msgstr "Design of a node connecting WPAN and WLAN networks"
 
 # projets.php
 msgid "projet_par_presentation"
-msgstr "<p>Projet de recherche et développement en collaboration avec le laboratoire INL&nbsp;[<a href=\"http://inl.cnrs.fr/\" alt=\"Site web du laboratoire INL\">1</a>], dans le cadre de la deuxième année de l'&Eacute;cole Centrale de Lyon&nbsp;[<a href=\"http://www.ec-lyon.fr\" alt=\"Site web ECL\">2</a>].</p>\n<p>Ce projet, réalisé en autonomie, avait pour but la création d'un bridge entre un réseau WPAN [<a href=\"http://fr.wikipedia.org/wiki/Wireless_Personal_Area_Network\" alt=\"Wikipedia WPAN\">3</a>] et un réseau WLAN [<a href=\"http://fr.wikipedia.org/wiki/WLAN\" alt=\"Wikipedia WLAN\">4</a>]. Un premier module permettant de communiquer avec le premier réseau et un deuxième permettant de communiquer avec le second réseau devaient donc être assemblés à l'aide d'un micro-contrôleur central. Les composants utilisés étaient produits par Microchip, le développement réalisé en C.</p>"
+msgstr "<p>R&D project in collaboration with the INL Laboratory&nbsp;[<a href=\"http://inl.cnrs.fr/en\" alt=\"Website ot the INL laboratory\">1</a>] as part of my second year at &Eacute;cole Centrale de Lyon&nbsp;[<a href=\"http://www.ec-lyon.fr\" alt=\"ECL website\">2</a>].</p>\n<p>This independant work aimed at the design of a network bridge between a WPAN [<a href=\"http://en.wikipedia.org/wiki/Wireless_Personal_Area_Network\" alt=\"Wikipedia WPAN\">3</a>] and a WLAN [<a href=\"http://en.wikipedia.org/wiki/WLAN\" alt=\"Wikipedia WLAN\">4</a>]. Two modules (one able to communicate with the first network, and the other with the second network) had to be gathered thanks to a central microcontroller. All the components were produced by Microchip, the development was done in C.</p>"
 
 # projets.php
 msgid "projet_par_liens"
-msgstr "<li>[1] Laboratoire INL <a href=\"http://inl.cnrs.fr/\" alt=\"Site web du laboratoire INL\">inl.cnrs.fr</a></li>\n<li>[2] &Eacute;cole de Centrale Lyon <a href=\"http://www.ec-lyon.fr/\" alt=\"Site web ECL\">www.ec-lyon.fr</a></li>\n<li>[3] <a href=\"http://fr.wikipedia.org/wiki/Wireless_Personal_Area_Network\" alt=\"Wikipedia WPAN\"> WPAN (wikipedia)</a></li>\n<li>[4] <a href=\"http://fr.wikipedia.org/wiki/WLAN\" alt=\"Wikipedia WLAN\"> WLAN (wikipedia)</a></li>\n<li>[Pour en savoir plus] <a href=\"download/projects/memoire_par.pdf\" alt=\"memoire du projet\">Mémoire du projet</a></li>"
+msgstr "<li>[1] INL Laboratory - <a href=\"http://inl.cnrs.fr/en\" alt=\"Website of the INL laboratory\">inl.cnrs.fr/en</a></li>\n<li>[2] &Eacute;cole de Centrale Lyon <i>[fr]</i> - <a href=\"http://www.ec-lyon.fr/\" alt=\"Site web ECL\">www.ec-lyon.fr</a></li>\n<li>[3]- <a href=\"http://en.wikipedia.org/wiki/Wireless_Personal_Area_Network\" alt=\"Wikipedia WPAN\"> WPAN (wikipedia)</a></li>\n<li>[4]- <a href=\"http://en.wikipedia.org/wiki/WLAN\" alt=\"Wikipedia WLAN\"> WLAN (wikipedia)</a></li>\n<li>[Further informations]- <a href=\"download/projects/memoire_par.pdf\" alt=\"memoire du projet\">Mémoire du projet <i>[fr]</i></a></li>"
 
 ## PE
 
 # projets.php
 msgid "projet_pe_titre"
-msgstr "Création d'un outil de mesure des champs magnétiques de basse fréquence"
+msgstr "Design of a tool to measure extremely low frequency magnetic fields"
 
 # projets.php
 msgid "projet_pe_presentation"
-msgstr "<p>Projet d'étude en collaboration avec le laboratoire AMPERE&nbsp;[<a href=\"http://www.ampere-lyon.fr/\" alt=\"Site web du laboratoire ampere\">1</a>], dans le cadre de la première année de l'&Eacute;cole Centrale de Lyon&nbsp;[<a href=\"http://www.ec-lyon.fr\" alt=\"Site web ECL\">2</a>].</p>\n<p>Ce projet avait pour but de concevoir un outil d’aide à la mesure des champs magnétiques de basse fréquence dans un espace défini. Cet outil permet de cartographier le champ magnétique dans cet environnement. Un programme MATLAB réalise l’ensemble des acquisitions et des traitements de données (FFT, filtrage, enregistrement).</p>"
+msgstr "<p>Student project in collaboration with the AMPERE Laboratory&nbsp;[<a href=\"http://www.ampere-lyon.fr/\" alt=\"Website of AMPERE Laboratory\">1</a>], as part of my first yeat at &Eacute;cole Centrale de Lyon&nbsp;[<a href=\"http://www.ec-lyon.fr\" alt=\"ECL website\">2</a>].</p>\n<p>This project aimed at the design of a tool for helping the measures of magnetic fields with extremely low frequencies in a defined area. The tool is able to map the field in this area. A MATLAB program do the acquisitions and process the data (FFR, filters, recording).</p>"
 
 # projets.php
 msgid "projet_pe_responsabilites"
-msgstr "<p>Chef de projet, développeur, expérimentateur.</p>"
+msgstr "<p>Head of project, programmer, experimenter.</p>"
 
 # projets.php
 msgid "projet_pe_liens"
-msgstr "<li>[1] Laboratoire Ampere <a href=\"http://www.ampere-lyon.fr/\" alt=\"Site web du laboratoire Ampere\">www.ampere-lyon.fr</a></li>\n<li>[2] &Eacute;cole de Centrale Lyon <a href=\"http://www.ec-lyon.fr/\" alt=\"Site web ECL\">www.ec-lyon.fr</a></li>\n<li>[Pour en savoir plus] <a href=\"download/projects/memoire_pe.pdf\" alt=\"memoire du projet\">Mémoire du projet</a></li>"
+msgstr "<li>[1] Ampere Laboratory <i>[fr]</i> - <a href=\"http://www.ampere-lyon.fr/\" alt=\"Website of the Ampere laboratory\">www.ampere-lyon.fr</a></li>\n<li>[2] &Eacute;cole de Centrale Lyon  <i>[fr]</i> - <a href=\"http://www.ec-lyon.fr/\" alt=\"ECL website\">www.ec-lyon.fr</a></li>\n<li>[Further informations] <a href=\"download/projects/memoire_pe.pdf\" alt=\"memoire du projet\">Mémoire du projet <i>[fr]</i></a></li>"
 
 ## Univers des Particules
 
 # projets.php
 msgid "projet_univers_titre"
-msgstr "Physique des particules : L'Univers des Particules"
+msgstr "Particle Physics: <em>L'Univers des Particules</em>"
 
 # projets.php
 msgid "projet_univers_presentation"
-msgstr "<p>Projet de recherche en physique des particules en partenariat avec le CERN&nbsp;[<a href=\"http://home.web.cern.ch/fr\" alt=\"Site web du CERN\">1</a>] et l'IN2P3&nbsp;[<a href=\"http://www.in2p3.fr/\" alt=\"Site web de l'IN2P3\">2</a>], dans le cadre des <acronym title=\"Activités Complémentaires de Formation\">ACF</acronym> du Lycée Pilote Innovant International (LP2I)&nbsp;[<a href=\"http://www.lp2i-poitiers.fr\" alt=\"Site web du LP2I\">3</a>].</p>\n<p>Comme l'actualité autour du <acronym title=\"Large Hadron Collider\">LHC</acronym> du CERN était très importante, nous avons rejoint un professeur passionné dans cette aventure. Nous avons marché sur les pas de Pierre Augier&nbsp;[<a href=\"http://fr.wikipedia.org/wiki/Pierre_Auger\" alt=\"Wikipedia Pierre Auger\">4</a>] à la poursuite des muons&nbsp;[<a href=\"http://fr.wikipedia.org/wiki/Muon\" alt=\"Wikipedia Muon\">5</a>].</p>\n<p>Le projet a été présenté aux concours <em>C-Génial</em>, <em>Faites de la Science</em> (1er prix) et aux <em>Olympiades de Physique</em> (1er prix).</p>"
+msgstr "<p>Research project in particle physics in collaboration with CERN&nbsp;[<a href=\"http://home.web.cern.ch/\" alt=\"CERN website\">1</a>] and IN2P3&nbsp;[<a href=\"http://www.in2p3.fr/\" alt=\"IN2P3 website\">2</a>], as part of the <acronym title=\"Activités Complémentaires de Formation\">ACF</acronym> (can be translated as activities for further training) at Lycée Pilote Innovant International (LP2I, my highschool)&nbsp;[<a href=\"http://www.lp2i-poitiers.fr\" alt=\"LP2I website\">3</a>].</p>\n<p>Since the <acronym title=\"Large Hadron Collider\">LHC</acronym> at CERN was very covered at this time, we joined an enthousiast professor in this experience. We followed Pierre Auger's research&nbsp;[<a href=\"http://en.wikipedia.org/wiki/Pierre_Auger\" alt=\"Wikipedia Pierre Auger\">4</a>] by tracking muons&nbsp;[<a href=\"http://en.wikipedia.org/wiki/Muon\" alt=\"Wikipedia Muon\">5</a>].</p>\n<p>The project stand several french science competitions such as <em>C-Génial</em>, <em>Faites de la Science</em> (1st prize) and the <em>Olympiades de Physique</em> (1st prize).</p>"
 
 # projets.php
 msgid "projet_univers_responsabilites"
-msgstr "<p>Chef de projet, expérimentateur, vulgarisation des sciences liées au projet, participation aux divers concours.</p>"
+msgstr "<p>Head of the project, experimenter, popularization of the sciences linked to the project, involvement in the different competitions.</p>"
 
 # projets.php
 msgid "projet_univers_liens"
-msgstr "<li>[1] CERN <a href=\"http://home.web.cern.ch/fr\" alt=\"Site web du CERN\">home.web.cern.ch/fr</a></li>\n<li>[2] Laboratoire IN2P3 <a href=\"http://www.in2p3.fr/\" alt=\"Site web de l'IN2P3\">www.in2p3.fr</a></li>\n<li>[3] Lycée Pilote Innovant International<a href=\"http://www.lp2i-poitiers.fr\" alt=\"Site web du LP2I\">www.lp2i-poitiers.fr</a></li>\n<li>[4] <a href=\"http://fr.wikipedia.org/wiki/Pierre_Auger\" alt=\"Wikipedia Pierre Auger\">Pierre Auger (wikipedia)</a></li>\n<li>[5] <a href=\"http://fr.wikipedia.org/wiki/Pierre_Auger\" alt=\"Wikipedia Muon\">Muon (wikipedia)</a></li>\n<li>[Pour en savoir plus] <a href=\"download/projects/memoire_CGenial.pdf\" alt=\"memoire du projet\">Mémoire présenté à C-Génial</a></li>"
+msgstr "<li>[1] CERN - <a href=\"http://home.web.cern.ch/\" alt=\"CERN website\">home.web.cern.ch</a></li>\n<li>[2] IN2P3 Laboratory <i>[fr]</i> - <a href=\"http://www.in2p3.fr/\" alt=\"IN2P3 website\">www.in2p3.fr</a></li>\n<li>[3] Lycée Pilote Innovant International  <i>[fr]</i> - <a href=\"http://www.lp2i-poitiers.fr\" alt=\"LP2I website\">www.lp2i-poitiers.fr</a></li>\n<li>[4] <a href=\"http://en.wikipedia.org/wiki/Pierre_Auger\" alt=\"Wikipedia Pierre Auger\">Pierre Auger (wikipedia)</a></li>\n<li>[5] <a href=\"http://en.wikipedia.org/wiki/Muon\" alt=\"Wikipedia Muon\">Muon (wikipedia)</a></li>\n<li>[Further informations] <a href=\"download/projects/memoire_CGenial.pdf\" alt=\"report of the projet\">Dissertation standed to C-Génial <i>[fr]</i></a></li>"
 
 ## Ouvroir
 
 # projets.php
 msgid "projet_ouvroir_titre"
-msgstr "Projet littéraire : L'Ouvroir"
+msgstr "Literature project: <em>L'Ouvroir</em>"
 
 # projets.php
 msgid "projet_ouvroir_presentation"
-msgstr "<p>Projet d'atelier d'écriture en partenariat avec l'OuLiPo&nbsp;[<a href=\"http://www.oulipo.net/\" alt=\"Site web de l'OuLiPo\">1</a>], dans le cadre des <acronym title=\"Activités Complémentaires de Formation\">ACF</acronym> du Lycée Pilote Innovant International (LP2I)&nbsp;[<a href=\"http://www.lp2i-poitiers.fr\" alt=\"Site web du LP2I\">2</a>].</p>\n<p>Invention de contraintes littéraires, échanges avec les membres de l'OuLiPo, écriture à 10 mains d'un recueil de nouvelles. Tous les textes sont regroupés sur le site du projet&nbsp;[<a href=\"http://www.lp2i-poitiers.fr/doc/annee_08_09/acf_08_09/acf_louvroir/\" alt=\"Site web du projet\">3</a>].</p>\n<p>Bien que ce projet commence à dater un petit peu, il reste pour moi une grande aventure littéraire, peut-être fondatrice de ce que je suis aujourd'hui.</p>"
+msgstr "<p>Writting workshop project in collaboration with OuLiPo&nbsp;[<a href=\"http://www.oulipo.net/\" alt=\"OuLiPo website\">1</a>] (a group of french writers who work by choosing style and content constraints), as part of the <acronym title=\"Activités Complémentaires de Formation\">ACF</acronym> at Lycée Pilote Innovant International (LP2I, my highschool)&nbsp;[<a href=\"http://www.lp2i-poitiers.fr\" alt=\"Site web du LP2I\">2</a>].</p>\n<p>We invented new literature constraints, exchanged with members of OuLiPo, wrote a short-story collection as a group of ten (each one writting a following the others' contraints). All the texts can be found on the project website&nbsp;[<a href=\"http://www.lp2i-poitiers.fr/doc/annee_08_09/acf_08_09/acf_louvroir/\" alt=\"Projet website\">3</a>].</p>\n<p>Although this project is becoming old, I lived it as a great literature experience and I'm sure it's one of the key ones that melt me as I am now.</p>"
 
 # projets.php
 msgid "projet_ouvroir_responsabilites"
-msgstr "<p>Chef de projet, rédacteur.</p>"
+msgstr "<p>Head of the project, writer.</p>"
 
 # projets.php
 msgid "projet_ouvroir_liens"
-msgstr "<li>[1] OuLiPo <a href=\"http://www.oulipo.net\" alt=\"Site web de l'OuLiPo\">www.oulipo.net</a></li>\n<li>[2] Lycée Pilote Innovant International <a href=\"http://www.lp2i-poitiers.fr\" alt=\"Site web du LP2I\">www.lp2i-poitiers.fr</a></li>\n<li>[3] Site du projet <a href=\"http://www.lp2i-poitiers.fr/doc/annee_08_09/acf_08_09/acf_louvroir/\" alt=\"Site web du projet\">www.lp2i-poitiers.fr/doc/annee_08_09/acf_08_09/acf_louvroir/</a></li>\n<li>[Pour en savoir plus] <a href=\"download/projects/Projet_Burdick.pdf\" alt=\"PDF Projet Burdick\">Projet Burdick</a> - <a href=\"download/projects/Petits_Projets_de_grande_envergure.pdf\" alt=\"PDF Petits Projets\">Petits Projets</a> - <a href=\"download/projects/livret_Paris.pdf\" alt=\"PDF livret Paris\">Livret Paris</a></li>"
+msgstr "<li>[1] OuLiPo <i>[fr]</i> <a href=\"http://www.oulipo.net\" alt=\"OuLiPo website\">www.oulipo.net</a></li>\n<li>[2] Lycée Pilote Innovant International <i>[fr]</i> <a href=\"http://www.lp2i-poitiers.fr\" alt=\"LP2I website\">www.lp2i-poitiers.fr</a></li>\n<li>[3] Site du projet <i>[fr]</i> <a href=\"http://www.lp2i-poitiers.fr/doc/annee_08_09/acf_08_09/acf_louvroir/\" alt=\"The project website\">www.lp2i-poitiers.fr/doc/annee_08_09/acf_08_09/acf_louvroir/</a></li>\n<li>[Further informations] <a href=\"download/projects/Projet_Burdick.pdf\" alt=\"PDF Projet Burdick\">Projet Burdick <i>[fr]</i></a> - <a href=\"download/projects/Petits_Projets_de_grande_envergure.pdf\" alt=\"PDF Petits Projets\">Petits Projets <i>[fr]</i></a> - <a href=\"download/projects/livret_Paris.pdf\" alt=\"PDF livret Paris\">Livret Paris <i>[fr]</i></a></li>"
