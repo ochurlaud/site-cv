@@ -1,8 +1,18 @@
 	</div>
+
+	
+<?php 
+	$log_file = escapeshellarg('.git/logs/HEAD');
+	$last_commit = `tail -n 1 $log_file`;
+	$last_commit_expl = explode(' ', $last_commit, 8);
+	$last_commit_date = $last_commit_expl[5];//1406153629 +0200
+	$last_commit_hash = substr($last_commit_expl[1], 0, 7);
+	$last_commit_descript = substr($last_commit_expl[7], 0, -1);
+?>
 	<div id="footer">
 		<div class="container center-block">
-			Olivier CHURLAUD - <?php echo strftime('%d %B %Y',exec('git log -1 --format="%ct"'));?>
-			<span style="color:#555;   font-style:italic;"> (<?php echo exec('git log -1 --format="%h"') .': ' . exec('git log -1 --format="%s"') . ')';?></span>
+			Olivier CHURLAUD - <?php echo strftime('%d %B %Y',$last_commit_date); ?>
+			<span style="color:#555;   font-style:italic;"> (<?php echo $last_commit_hash .': ' . $last_commit_descript . ')';?></span>
 		</div>
 	</div>
 
