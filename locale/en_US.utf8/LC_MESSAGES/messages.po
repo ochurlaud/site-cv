@@ -60,7 +60,7 @@ msgstr "olivier_churlaud-cv-en.pdf"
 
 #: index.php:15
 msgid "Accueil"
-msgstr "<p>Welcome to my website.</p>\n<p>You'll find here my detailed résumé, some of skills I gained and a insight of the project which I worked on.</p>\n<p>I'm currently studying Engineering at &Eacute;cole Centrale de Lyon (France). I'm a sciences and technologies enthousiast: from mathematics to computer sciences (networks, linux and some programming), through to electromagnetism or signal processing but I'm also found of litterature, cinema and especially music.</p>\n<p>Enjoy your visit here, and feel free to get in touch with me for comments, propositions or just a little talk!</p>"
+msgstr "<p>Welcome to my website.</p>\n<p>You'll find here my detailed résumé, some of the skills I gained and an insight of the projects I worked on.</p>\n<p>I'm currently studying Engineering at &Eacute;cole Centrale de Lyon (France). I'm a sciences and technologies enthusiast: from mathematics to computer sciences (networks, linux and some programming), through to electromagnetism or signal processing but I'm also found of literature, cinema and especially music.</p>\n<p>Enjoy your visit here, and feel free to get in touch with me for any comments, propositions or just a little talk!</p>"
 
 ##
 # cv.php
@@ -101,7 +101,7 @@ msgstr "Projects"
 
 #: cv.php
 msgid "cv_exp_par"
-msgstr "<strong>Research: Design of a node connecting WPAN and WLAN networks</strong><br />\nCollaboration with the INL Laboratory (Lyon)<br />\n<em>C Program</em> - <em>KICAD</em> - <em>Microcontrollers (Microchip)</em>"
+msgstr "<strong>Research project: Design of a node connecting WPAN and WLAN networks</strong><br />\nCollaboration with the INL Laboratory (Lyon)<br />\n<em>C Program</em> - <em>KICAD</em> - <em>Microcontrollers (Microchip)</em>"
 
 #: cv.php
 msgid "cv_exp_eclair"
@@ -113,7 +113,7 @@ msgstr "<strong>Student project: Design of a tool to measure extremely low frequ
 
 #: cv.php
 msgid "cv_exp_acf_univers"
-msgstr "<strong>Research projct in particle physics with CERN and IN2P3</strong><br />\nReceived first prize in two science competitions (Olympiades de Physique, Faites de la Science)<br />\n<em>Particle physics</em> - <em>Experiments</em> - <em>Popularization</em> - <em>Design of a board game on the LHC topic</em>"
+msgstr "<strong>Research project in particle physics with CERN and IN2P3</strong><br />\nReceived first prize in two science competitions (Olympiades de Physique, Faites de la Science)<br />\n<em>Particle physics</em> - <em>Experiments</em> - <em>Popularization</em> - <em>Design of a board game on the LHC topic</em>"
 
 #: cv.php
 msgid "cv_exp_acf_ouvroir"
@@ -125,11 +125,11 @@ msgstr "Work Experience"
 
 #: cv.php
 msgid "cv_exp_pro_application"
-msgstr "<strong>Research application with <a href=\"http://public.telecom-bretagne.eu/~fandriul/\" title=\"F.P. Andriulli Research Group webpage\" alt=\"F.P. Andriulli Research Group webpage\">Francesco P. Andriulli</a> (Télécom Bretagne)</strong> - Analysis and design of technics and tools for experiments and computation on EEG material"
+msgstr "<strong>Research internship with <a href=\"http://public.telecom-bretagne.eu/~fandriul/\" title=\"F.P. Andriulli Research Group webpage\" alt=\"F.P. Andriulli Research Group webpage\">Francesco P. Andriulli</a> (Télécom Bretagne)</strong> - Analysis and design of technics and tools for experiments and computation on EEG material"
 
 #: cv.php
 msgid "cv_exp_pro_execution"
-msgstr "<strong>Industry application: SNCF</strong> - Maintenance of BB26000 engines (Technicentre SNCF Oullins)"
+msgstr "<strong>Industry internship: SNCF</strong> - Maintenance of BB26000 engines (Technicentre SNCF Oullins)"
 
 #: cv.php
 msgid "cv_exp_pro_demenagement"
@@ -313,7 +313,7 @@ msgstr "Design of a tool to measure extremely low frequency magnetic fields"
 
 # projets.php
 msgid "projet_pe_presentation"
-msgstr "<p>Student project in collaboration with the AMPERE Laboratory&nbsp;[<a href=\"http://www.ampere-lyon.fr/\" alt=\"Website of AMPERE Laboratory\">1</a>], as part of my first yeat at &Eacute;cole Centrale de Lyon&nbsp;[<a href=\"http://www.ec-lyon.fr\" alt=\"ECL website\">2</a>].</p>\n<p>This project aimed at the design of a tool for helping the measures of magnetic fields with extremely low frequencies in a defined area. The tool is able to map the field in this area. A MATLAB program do the acquisitions and process the data (FFR, filters, recording).</p>"
+msgstr "<p>Student project in collaboration with the AMPERE Laboratory&nbsp;[<a href=\"http://www.ampere-lyon.fr/\" alt=\"Website of AMPERE Laboratory\">1</a>], as part of my first yeat at &Eacute;cole Centrale de Lyon&nbsp;[<a href=\"http://www.ec-lyon.fr\" alt=\"ECL website\">2</a>].</p>\n<p>This project aimed at the design of a tool for helping the measures of magnetic fields with extremely low frequencies in a defined area. The tool is able to map the field in this area. A MATLAB program does the acquisitions and processes the data (FFR, filters, recording).</p>"
 
 # projets.php
 msgid "projet_pe_responsabilites"
@@ -331,7 +331,7 @@ msgstr "Particle Physics: <em>L'Univers des Particules</em>"
 
 # projets.php
 msgid "projet_univers_presentation"
-msgstr "<p>Research project in particle physics in collaboration with CERN&nbsp;[<a href=\"http://home.web.cern.ch/\" alt=\"CERN website\">1</a>] and IN2P3&nbsp;[<a href=\"http://www.in2p3.fr/\" alt=\"IN2P3 website\">2</a>], as part of the <acronym title=\"Activités Complémentaires de Formation\">ACF</acronym> (can be translated as activities for further training) at Lycée Pilote Innovant International (LP2I, my highschool)&nbsp;[<a href=\"http://www.lp2i-poitiers.fr\" alt=\"LP2I website\">3</a>].</p>\n<p>Since the <acronym title=\"Large Hadron Collider\">LHC</acronym> at CERN was very covered at this time, we joined an enthousiast professor in this experience. We followed Pierre Auger's research&nbsp;[<a href=\"http://en.wikipedia.org/wiki/Pierre_Auger\" alt=\"Wikipedia Pierre Auger\">4</a>] by tracking muons&nbsp;[<a href=\"http://en.wikipedia.org/wiki/Muon\" alt=\"Wikipedia Muon\">5</a>].</p>\n<p>The project stand several french science competitions such as <em>C-Génial</em>, <em>Faites de la Science</em> (1st prize) and the <em>Olympiades de Physique</em> (1st prize).</p>"
+msgstr "<p>Research project in particle physics in collaboration with CERN&nbsp;[<a href=\"http://home.web.cern.ch/\" alt=\"CERN website\">1</a>] and IN2P3&nbsp;[<a href=\"http://www.in2p3.fr/\" alt=\"IN2P3 website\">2</a>], as part of the <acronym title=\"Activités Complémentaires de Formation\">ACF</acronym> (can be translated as activities for further training) at Lycée Pilote Innovant International (LP2I, my highschool)&nbsp;[<a href=\"http://www.lp2i-poitiers.fr\" alt=\"LP2I website\">3</a>].</p>\n<p>Since the <acronym title=\"Large Hadron Collider\">LHC</acronym> at CERN was very covered at this time, we joined an enthusiast professor in this experience. We followed Pierre Auger's research&nbsp;[<a href=\"http://en.wikipedia.org/wiki/Pierre_Auger\" alt=\"Wikipedia Pierre Auger\">4</a>] by tracking muons&nbsp;[<a href=\"http://en.wikipedia.org/wiki/Muon\" alt=\"Wikipedia Muon\">5</a>].</p>\n<p>The project stand several french science competitions such as <em>C-Génial</em>, <em>Faites de la Science</em> (1st prize) and the <em>Olympiades de Physique</em> (1st prize).</p>"
 
 # projets.php
 msgid "projet_univers_responsabilites"
@@ -349,7 +349,7 @@ msgstr "Literature project: <em>L'Ouvroir</em>"
 
 # projets.php
 msgid "projet_ouvroir_presentation"
-msgstr "<p>Writting workshop project in collaboration with OuLiPo&nbsp;[<a href=\"http://www.oulipo.net/\" alt=\"OuLiPo website\">1</a>] (a group of french writers who work by choosing style and content constraints), as part of the <acronym title=\"Activités Complémentaires de Formation\">ACF</acronym> at Lycée Pilote Innovant International (LP2I, my highschool)&nbsp;[<a href=\"http://www.lp2i-poitiers.fr\" alt=\"Site web du LP2I\">2</a>].</p>\n<p>We invented new literature constraints, exchanged with members of OuLiPo, wrote a short-story collection as a group of ten (each one writting a following the others' contraints). All the texts can be found on the project website&nbsp;[<a href=\"http://www.lp2i-poitiers.fr/doc/annee_08_09/acf_08_09/acf_louvroir/\" alt=\"Projet website\">3</a>].</p>\n<p>Although this project is becoming old, I lived it as a great literature experience and I'm sure it's one of the key ones that melt me as I am now.</p>"
+msgstr "<p>Writting workshop project in collaboration with OuLiPo&nbsp;[<a href=\"http://www.oulipo.net/\" alt=\"OuLiPo website\">1</a>] (a group of french writers who work by choosing style and content constraints), as part of the <acronym title=\"Activités Complémentaires de Formation\">ACF</acronym> at Lycée Pilote Innovant International (LP2I, my highschool)&nbsp;[<a href=\"http://www.lp2i-poitiers.fr\" alt=\"Site web du LP2I\">2</a>].</p>\n<p>We invented new literature constraints, exchanged with members of OuLiPo, wrote a short-story collection as a group of ten (each one writting while following the others' contraints). All the texts can be found on the project website&nbsp;[<a href=\"http://www.lp2i-poitiers.fr/doc/annee_08_09/acf_08_09/acf_louvroir/\" alt=\"Projet website\">3</a>].</p>\n<p>Although this project is becoming old, I lived it as a great literature experience and I'm sure it's one of the key ones that melt me as I am now.</p>"
 
 # projets.php
 msgid "projet_ouvroir_responsabilites"
