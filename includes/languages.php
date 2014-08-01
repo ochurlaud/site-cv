@@ -17,11 +17,11 @@
 		case 'fr':
 			$language = "fr_FR.utf8";
 			$btn_fr = 'btn-info';
-			$btn_en = '';
+			$btn_en = 'btn-default';
 			break;
 		default:
 			$language = "en_US.utf8";
-			$btn_fr = '';
+			$btn_fr = 'btn-default';
 			$btn_en = 'btn-info';
 			break;
 	}		
