@@ -9,7 +9,7 @@
 				<?php echo $age . ' ' . _("ans") . ' (' ._("né le 7 avril 1992") .')';?><br />
 				<span class="glyphicon glyphicon-send"></span> <span class="adressemail">moc.dualruhc@reivilo</span><br />
 				<img src="img/linkedin_nb.png" width="14px" /> <a href="<?php echo _("linkedin");?>" alt="lien linkedin"><?php echo _("linkedin");?></a><br />
-				<span class="glyphicon glyphicon-earphone"></span> +33 (0)6 98 29 02 52<br />
+				<span class="glyphicon glyphicon-earphone"></span> +49 (0)1575-2931348<br />
 			</address>
 		</div>
 		<div class="col-sm-6 col-md-4">
