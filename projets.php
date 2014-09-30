@@ -5,6 +5,18 @@
 	<div class="container-fluid col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
 
 		<div class="row projet">
+			<h3><?php echo _("projet_TB_titre");?> <small><?php echo _("Mai") . '-' . _("Août");?> 2014</small></h3>
+
+			<h4><?php echo _("Présentation");?></h4>
+			<?php echo _("projet_TB_presentation");?>
+
+			<h4><?php echo _("Liens");?></h4>
+			<ul class="list-unstyled liens">
+				<?php echo _("projet_TB_liens");?>
+			</ul>
+		</div>
+
+		<div class="row projet">
 			<h3><?php echo _("projet_par_titre");?> <small>2013-2014</small></h3>
 
 			<h4><?php echo _("Présentation");?></h4>

@@ -293,6 +293,20 @@ msgstr "Liens"
 ## PAr
 
 # projets.php
+msgid "projet_TB_titre"
+msgstr "Stage de recherche à Télécom Bretagne"
+
+# projets.php
+msgid "projet_TB_presentation"
+msgstr "<p>Analyse et développement de techniques et d'outils expérimentaux et computationnels pour l'imagerie cérébrale par encéphalogramme </p><p>Projet de recherche et développement en collaboration avec le laboratoire INL&nbsp;[<a href=\"http://inl.cnrs.fr/\" alt=\"Site web du laboratoire INL\">1</a>], dans le cadre de la deuxième année de l'&Eacute;cole Centrale de Lyon&nbsp;[<a href=\"http://www.ec-lyon.fr\" alt=\"Site web ECL\">2</a>].</p>\n<p>Ce projet, réalisé en autonomie, avait pour but la création d'un bridge entre un réseau WPAN [<a href=\"http://fr.wikipedia.org/wiki/Wireless_Personal_Area_Network\" alt=\"Wikipedia WPAN\">3</a>] et un réseau WLAN [<a href=\"http://fr.wikipedia.org/wiki/WLAN\" alt=\"Wikipedia WLAN\">4</a>]. Un premier module permettant de communiquer avec le premier réseau et un deuxième permettant de communiquer avec le second réseau devaient donc être assemblés à l'aide d'un micro-contrôleur central. Les composants utilisés étaient produits par Microchip, le développement réalisé en C.</p>"
+
+# projets.php
+msgid "projet_TB_liens"
+msgstr "<li>[1] Laboratoire INL <a href=\"http://inl.cnrs.fr/\" alt=\"Site web du laboratoire INL\">inl.cnrs.fr</a></li>\n<li>[2] &Eacute;cole de Centrale Lyon <a href=\"http://www.ec-lyon.fr/\" alt=\"Site web ECL\">www.ec-lyon.fr</a></li>\n<li>[3] <a href=\"http://fr.wikipedia.org/wiki/Wireless_Personal_Area_Network\" alt=\"Wikipedia WPAN\"> WPAN (wikipedia)</a></li>\n<li>[4] <a href=\"http://fr.wikipedia.org/wiki/WLAN\" alt=\"Wikipedia WLAN\"> WLAN (wikipedia)</a></li>\n<li>[Pour en savoir plus] <a href=\"download/projects/memoire_par.pdf\" alt=\"memoire du projet\">Mémoire du projet</a></li>"
+
+## PAr
+
+# projets.php
 msgid "projet_par_titre"
 msgstr "Conception et création d'un module de transmission WPAN-WLAN"
 

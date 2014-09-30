@@ -54,6 +54,54 @@ msgstr "Projects"
 msgid "file_cv"
 msgstr "olivier_churlaud-cv-en.pdf"
 
+#: general
+msgid "Janvier"
+msgstr "January"
+
+#: general
+msgid "Février"
+msgstr "February"
+
+#: general
+msgid "Mars"
+msgstr "March"
+
+#: general
+msgid "Avril"
+msgstr "April"
+
+#: general
+msgid "Mai"
+msgstr "May"
+
+#: general
+msgid "Juin"
+msgstr "June"
+
+#: general
+msgid "Juillet"
+msgstr "July"
+
+#: general
+msgid "Août"
+msgstr "August"
+
+#: general
+msgid "Septembre"
+msgstr "September"
+
+#: general
+msgid "Octobre"
+msgstr "October"
+
+#: general
+msgid "Novembre"
+msgstr "November"
+
+#: general
+msgid "Décembre"
+msgstr "December"
+
 ##
 # Index, page d'accueil
 ##
