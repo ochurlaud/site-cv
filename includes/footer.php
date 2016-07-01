@@ -1,16 +1,10 @@
 </div>
 
 <?php
-    $log_file = escapeshellarg('.git/logs/HEAD');
-    $last_commit = `tail -n 1 $log_file`; // Read the last line of the file
-    $last_commit_expl = explode(' ', $last_commit, 8);
-    $date = strftime('%d %b %Y', intval($last_commit_expl[5]));
-    $hash = substr($last_commit_expl[1], 0, 7);  // Keep only the 7 first digits of the hash
-    $descript = substr($last_commit_expl[7], 0, -1); // Remove the space at the end of the line
-    $hash = `git log -n1 --format=%h`;
-    $descript = `git log -n1 --format=%s`;
-    $date_ts = intval(`git log -n1 --format=%ct`);
-    $date = strftime('%d %b %Y', $date_ts);
+    $git_date = `git log -n 1 --format=%ct`;
+    $hash = `git log -n 1 --format=%h`;
+    $descript = `git log -n 1 --format=%s`;
+    $date = strftime('%d %b %Y', intval($git_date));
 ?>
     <div id="footer">
         <div class="container center-block">
