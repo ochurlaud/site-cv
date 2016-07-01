@@ -17,7 +17,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-
 #: general
 msgid "meta_description"
 msgstr "Olivier CHURLAUD's page: resume, expertise, projects..."
@@ -341,7 +340,7 @@ msgstr "Links"
 
 ## PAr
 
-# projets.php
+#: projets.php
 msgid "projet_par_titre"
 msgstr "Design of a node connecting WPAN and WLAN networks"
 
@@ -351,7 +350,7 @@ msgstr "<p>R&D project in collaboration with the INL Laboratory&nbsp;[<a href=\"
 
 # projets.php
 msgid "projet_par_liens"
-msgstr "<li>[1] INL Laboratory - <a href=\"http://inl.cnrs.fr/en\" alt=\"Website of the INL laboratory\">inl.cnrs.fr/en</a></li>\n<li>[2] &Eacute;cole de Centrale Lyon <i>[fr]</i> - <a href=\"http://www.ec-lyon.fr/\" alt=\"Site web ECL\">www.ec-lyon.fr</a></li>\n<li>[3]- <a href=\"http://en.wikipedia.org/wiki/Wireless_Personal_Area_Network\" alt=\"Wikipedia WPAN\"> WPAN (wikipedia)</a></li>\n<li>[4]- <a href=\"http://en.wikipedia.org/wiki/WLAN\" alt=\"Wikipedia WLAN\"> WLAN (wikipedia)</a></li>\n<li>[Further informations]- <a href=\"download/projects/memoire_par.pdf\" alt=\"memoire du projet\">Mémoire du projet <i>[fr]</i></a></li>"
+msgstr "<li>[1] INL Laboratory - <a href=\"http://inl.cnrs.fr/en\" alt=\"Website of the INL laboratory\">inl.cnrs.fr/en</a></li>\n<li>[2] &Eacute;cole de Centrale Lyon <i>[fr]</i> - <a href=\"http://www.ec-lyon.fr/\" alt=\"Site web ECL\">www.ec-lyon.fr</a></li>\n<li>[3] <a href=\"http://en.wikipedia.org/wiki/Wireless_Personal_Area_Network\" alt=\"Wikipedia WPAN\"> WPAN (wikipedia)</a></li>\n<li>[4] <a href=\"http://en.wikipedia.org/wiki/WLAN\" alt=\"Wikipedia WLAN\"> WLAN (wikipedia)</a></li>\n<li>[Further informations] <a href=\"download/projects/memoire_par.pdf\" alt=\"memoire du projet\">Mémoire du projet <i>[fr]</i></a></li>"
 
 ## PE
 
