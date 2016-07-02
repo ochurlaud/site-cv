@@ -275,7 +275,7 @@ msgid "comp_developpement"
 msgstr "<li><strong>Web</strong> : HTML5, CSS, PHP, <em>Symfony2</em></li>\n<li><strong>BDD</strong> : MySQL, PostgreSQL, MS Access</li>\n<li><strong>Langages divers</strong> : MATLAB, C/C++, Latex</li>"
 
 ##
-#: projets.php
+# projets.php
 ##
 
 #: projets.php
@@ -290,19 +290,37 @@ msgstr "Responsabilités"
 msgid "Liens"
 msgstr "Liens"
 
+## Master
+
+#: projets.php
+msgid "projet_bessy_titre"
+msgstr "Localisation et correction de perturbations dans l'orbite de l'accélérateur de particules BESSY&nbsp;II (Berlin)"
+
+#: projets.php
+msgid "projet_bessy_presentation"
+msgstr "<p>Ce projet a constitué mon mémoire de Master pour clôturer mon double diplôme avec la TU&nbsp;Berlin [<a href=\"https://www.tu-berlin.de\" alt=\"Tu Berlin\">1</a>] ainsi qu'un travail étudiant en parallèle de ma dernière année de cours.</p>\n<p>Le but était d'améliorer la correction des perturbations de l'orbite suivi par les électrons stockés dans l'accélérateur BESSY&nbsp;II [<a href=\"https://www.helmholtz-berlin.de/quellen/bessy/index_en.html\" alt=\"Bessy2\">2</a>] afin que ceux-ci restent au plus proche de la trajectoire planifiée.</p>\n<p>J'ai entièrement réécrit le programme effectuant la correction en C++ et composé une bibliothèque Python d'analyse et de filtrage du signal. J'ai aussi conçu des scripts permettant de localiser les sources des perturbations le long de l'orbite.</p>"
+
+#: projets.php
+msgid "projet_bessy_liens"
+msgstr "<li>[1] Technische Universität Berlin &ndash; <a href=\"https://www.tu-berlin.de\" alt=\"Tu Berlin\">www.tu-berlin.de</a></li>\n<li>[2] BESSY II &ndash; <a href=\"https://www.helmholtz-berlin.de/quellen/bessy/index_en.html\" alt=\"Bessy2\">www.helmholtz-berlin.de/quellen/bessy/index_en.html</a><li>[Pour en savoir plus] <a href=\"download/projects/MasterBessy.pdf\" alt=\"Memoire de master\">Mémoire de Master [en]</a> (Disponible en septembre 2016)</li>"
+
 ## Stage Francesco
 
 #: projets.php
 msgid "projet_TB_titre"
-msgstr "Stage de recherche à Télécom Bretagne"
+msgstr "Analyse et développement de techniques et d'outils expérimentaux et computationnels pour l'imagerie cérébrale par encéphalogramme"
 
 #: projets.php
 msgid "projet_TB_presentation"
-msgstr "<p>Analyse et développement de techniques et d'outils expérimentaux et computationnels pour l'imagerie cérébrale par encéphalogramme </p>\n<p>Ce projet, réalisé en autonomie, avait pour but la création d'un bridge entre un réseau WPAN [<a href=\"http://fr.wikipedia.org/wiki/Wireless_Personal_Area_Network\" alt=\"Wikipedia WPAN\">3</a>] et un réseau WLAN [<a href=\"http://fr.wikipedia.org/wiki/WLAN\" alt=\"Wikipedia WLAN\">4</a>]. Un premier module permettant de communiquer avec le premier réseau et un deuxième permettant de communiquer avec le second réseau devaient donc être assemblés à l'aide d'un micro-contrôleur central. Les composants utilisés étaient produits par Microchip, le développement réalisé en C.</p>"
+msgstr "<p>Stage de recherche à Telecom Bretagne [<a href=\"https://telecom-bretagne.eu\" alt=\"Telecom Bretagne\">1</a>] supervisé par Dr Francesco P. Andriulli [<a href=\"http://recherche.telecom-bretagne.eu/cerl\" alt=\"FP Andriulli\">2</a>] dans le cadre de la deuxième année de l'École Centrale de Lyon&nbsp;[<a href=\"http://www.ec-lyon.fr\" alt=\"Site web ECL\">3</a>].</p>\n<p>J'ai expérimenté, implémenté et amélioré des méthodes permettant de traiter les informations issus de potentiels mesurés par encéphalographie.</p>\n<p>J’ai participé à l’établissement de protocoles d’expérimentation, aux recherches bibliographiques et à l’implémentation de méthodes de localisation des sources électriques, ainsi qu’à la création de fantômes de tête, permettant la reproductibilité des expériences.</p>"
+
+#: projets.php
+msgid "projet_TB_responsabilites"
+msgstr "<p>Expérimentation, synthèse de l'état de l'art, gestion du travail des autres stagiaires.</p>"
 
 #: projets.php
 msgid "projet_TB_liens"
-msgstr "<li>[1] Laboratoire INL <a href=\"http://inl.cnrs.fr/\" alt=\"Site web du laboratoire INL\">inl.cnrs.fr</a></li>\n<li>[2] &Eacute;cole de Centrale Lyon <a href=\"http://www.ec-lyon.fr/\" alt=\"Site web ECL\">www.ec-lyon.fr</a></li>\n<li>[3] <a href=\"http://fr.wikipedia.org/wiki/Wireless_Personal_Area_Network\" alt=\"Wikipedia WPAN\"> WPAN (wikipedia)</a></li>\n<li>[4] <a href=\"http://fr.wikipedia.org/wiki/WLAN\" alt=\"Wikipedia WLAN\"> WLAN (wikipedia)</a></li>\n<li>[Pour en savoir plus] <a href=\"download/projects/memoire_par.pdf\" alt=\"memoire du projet\">Mémoire du projet</a></li>"
+msgstr "<li>[1] Telecom Bretagne &ndash; <a href=\"https://telecom-bretagne.eu\" alt=\"Telecom Bretagne\">telecom-bretagne.eu</a></li>\n<li>[2] Page personnelle de Dr F.P. Andriulli [en] &ndash; <a href=\"http://recherche.telecom-bretagne.eu/cerl\" alt=\"FP Andriulli\">recherche.telecom-bretagne.eu/cerl</a></li>\n<li>[3] &Eacute;cole de Centrale Lyon &ndash; <a href=\"http://www.ec-lyon.fr/\" alt=\"Site web ECL\">www.ec-lyon.fr</a></li>\n<li>[Pour en savoir plus] <a href=\"download/projects/Stage2A.pdf\" alt=\"Rapport de stage\">Rapport de stage [en]</a></li>"
 
 ## PAr
 
@@ -316,7 +334,7 @@ msgstr "<p>Projet de recherche et développement en collaboration avec le labora
 
 #: projets.php
 msgid "projet_par_liens"
-msgstr "<li>[1] Laboratoire INL <a href=\"http://inl.cnrs.fr/\" alt=\"Site web du laboratoire INL\">inl.cnrs.fr</a></li>\n<li>[2] &Eacute;cole de Centrale Lyon <a href=\"http://www.ec-lyon.fr/\" alt=\"Site web ECL\">www.ec-lyon.fr</a></li>\n<li>[3] <a href=\"http://fr.wikipedia.org/wiki/Wireless_Personal_Area_Network\" alt=\"Wikipedia WPAN\"> WPAN (wikipedia)</a></li>\n<li>[4] <a href=\"http://fr.wikipedia.org/wiki/WLAN\" alt=\"Wikipedia WLAN\"> WLAN (wikipedia)</a></li>\n<li>[Pour en savoir plus] <a href=\"download/projects/memoire_par.pdf\" alt=\"memoire du projet\">Mémoire du projet</a></li>"
+msgstr "<li>[1] Laboratoire INL &ndash; <a href=\"http://inl.cnrs.fr/\" alt=\"Site web du laboratoire INL\">inl.cnrs.fr</a></li>\n<li>[2] &Eacute;cole de Centrale Lyon &ndash; <a href=\"http://www.ec-lyon.fr/\" alt=\"Site web ECL\">www.ec-lyon.fr</a></li>\n<li>[3] <a href=\"http://fr.wikipedia.org/wiki/Wireless_Personal_Area_Network\" alt=\"Wikipedia WPAN\"> WPAN (wikipedia)</a></li>\n<li>[4] <a href=\"http://fr.wikipedia.org/wiki/WLAN\" alt=\"Wikipedia WLAN\"> WLAN (wikipedia)</a></li>\n<li>[Pour en savoir plus] <a href=\"download/projects/memoire_par.pdf\" alt=\"memoire du projet\">Mémoire du projet</a></li>"
 
 ## PE
 
@@ -330,11 +348,11 @@ msgstr "<p>Projet d'étude en collaboration avec le laboratoire AMPERE&nbsp;[<a 
 
 #: projets.php
 msgid "projet_pe_responsabilites"
-msgstr "<p>Chef de projet, développeur, expérimentateur.</p>"
+msgstr "<p>Chef de projet, développement, expérimentation.</p>"
 
 #: projets.php
 msgid "projet_pe_liens"
-msgstr "<li>[1] Laboratoire Ampere <a href=\"http://www.ampere-lyon.fr/\" alt=\"Site web du laboratoire Ampere\">www.ampere-lyon.fr</a></li>\n<li>[2] &Eacute;cole de Centrale Lyon <a href=\"http://www.ec-lyon.fr/\" alt=\"Site web ECL\">www.ec-lyon.fr</a></li>\n<li>[Pour en savoir plus] <a href=\"download/projects/memoire_pe.pdf\" alt=\"memoire du projet\">Mémoire du projet</a></li>"
+msgstr "<li>[1] Laboratoire Ampere &ndash; <a href=\"http://www.ampere-lyon.fr/\" alt=\"Site web du laboratoire Ampere\">www.ampere-lyon.fr</a></li>\n<li>[2] &Eacute;cole de Centrale Lyon &ndash; <a href=\"http://www.ec-lyon.fr/\" alt=\"Site web ECL\">www.ec-lyon.fr</a></li>\n<li>[Pour en savoir plus] <a href=\"download/projects/memoire_pe.pdf\" alt=\"memoire du projet\">Mémoire du projet</a></li>"
 
 ## Univers des Particules
 
@@ -348,11 +366,11 @@ msgstr "<p>Projet de recherche en physique des particules en partenariat avec le
 
 #: projets.php
 msgid "projet_univers_responsabilites"
-msgstr "<p>Chef de projet, expérimentateur, vulgarisation des sciences liées au projet, participation aux divers concours.</p>"
+msgstr "<p>Chef de projet, expérimentation, vulgarisation des sciences liées au projet, participation aux divers concours.</p>"
 
 #: projets.php
 msgid "projet_univers_liens"
-msgstr "<li>[1] CERN <a href=\"http://home.web.cern.ch/fr\" alt=\"Site web du CERN\">home.web.cern.ch/fr</a></li>\n<li>[2] Laboratoire IN2P3 <a href=\"http://www.in2p3.fr/\" alt=\"Site web de l'IN2P3\">www.in2p3.fr</a></li>\n<li>[3] Lycée Pilote Innovant International<a href=\"http://www.lp2i-poitiers.fr\" alt=\"Site web du LP2I\">www.lp2i-poitiers.fr</a></li>\n<li>[4] <a href=\"http://fr.wikipedia.org/wiki/Pierre_Auger\" alt=\"Wikipedia Pierre Auger\">Pierre Auger (wikipedia)</a></li>\n<li>[5] <a href=\"http://fr.wikipedia.org/wiki/Muon\" alt=\"Wikipedia Muon\">Muon (wikipedia)</a></li>\n<li>[Pour en savoir plus] <a href=\"download/projects/memoire_CGenial.pdf\" alt=\"memoire du projet\">Mémoire présenté à C-Génial</a></li>"
+msgstr "<li>[1] CERN &ndash; <a href=\"http://home.web.cern.ch/fr\" alt=\"Site web du CERN\">home.web.cern.ch/fr</a></li>\n<li>[2] Laboratoire IN2P3 &ndash; <a href=\"http://www.in2p3.fr/\" alt=\"Site web de l'IN2P3\">www.in2p3.fr</a></li>\n<li>[3] Lycée Pilote Innovant International &ndash; <a href=\"http://www.lp2i-poitiers.fr\" alt=\"Site web du LP2I\">www.lp2i-poitiers.fr</a></li>\n<li>[4] <a href=\"http://fr.wikipedia.org/wiki/Pierre_Auger\" alt=\"Wikipedia Pierre Auger\">Pierre Auger (wikipedia)</a></li>\n<li>[5] <a href=\"http://fr.wikipedia.org/wiki/Muon\" alt=\"Wikipedia Muon\">Muon (wikipedia)</a></li>\n<li>[Pour en savoir plus] <a href=\"download/projects/memoire_CGenial.pdf\" alt=\"memoire du projet\">Mémoire présenté à C-Génial</a></li>"
 
 ## Ouvroir
 
@@ -370,4 +388,4 @@ msgstr "<p>Chef de projet, rédacteur.</p>"
 
 #: projets.php
 msgid "projet_ouvroir_liens"
-msgstr "<li>[1] OuLiPo <a href=\"http://www.oulipo.net\" alt=\"Site web de l'OuLiPo\">www.oulipo.net</a></li>\n<li>[2] Lycée Pilote Innovant International <a href=\"http://www.lp2i-poitiers.fr\" alt=\"Site web du LP2I\">www.lp2i-poitiers.fr</a></li>\n<li>[3] Site du projet <a href=\"http://www.lp2i-poitiers.fr/doc/annee_08_09/acf_08_09/acf_louvroir/\" alt=\"Site web du projet\">www.lp2i-poitiers.fr/doc/annee_08_09/acf_08_09/acf_louvroir/</a></li>\n<li>[Pour en savoir plus] <a href=\"download/projects/Projet_Burdick.pdf\" alt=\"PDF Projet Burdick\">Projet Burdick</a> - <a href=\"download/projects/Petits_Projets_de_grande_envergure.pdf\" alt=\"PDF Petits Projets\">Petits Projets</a> - <a href=\"download/projects/livret_Paris.pdf\" alt=\"PDF livret Paris\">Livret Paris</a></li>"
+msgstr "<li>[1] OuLiPo &ndash; <a href=\"http://www.oulipo.net\" alt=\"Site web de l'OuLiPo\">www.oulipo.net</a></li>\n<li>[2] Lycée Pilote Innovant International &ndash; <a href=\"http://www.lp2i-poitiers.fr\" alt=\"Site web du LP2I\">www.lp2i-poitiers.fr</a></li>\n<li>[3] Site du projet &ndash; <a href=\"http://www.lp2i-poitiers.fr/doc/annee_08_09/acf_08_09/acf_louvroir/\" alt=\"Site web du projet\">www.lp2i-poitiers.fr/doc/annee_08_09/acf_08_09/acf_louvroir/</a></li>\n<li>[Pour en savoir plus] <a href=\"download/projects/Projet_Burdick.pdf\" alt=\"PDF Projet Burdick\">Projet Burdick</a> &ndash; <a href=\"download/projects/Petits_Projets_de_grande_envergure.pdf\" alt=\"PDF Petits Projets\">Petits Projets</a> &ndash; <a href=\"download/projects/livret_Paris.pdf\" alt=\"PDF livret Paris\">Livret Paris</a></li>"
