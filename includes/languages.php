@@ -9,6 +9,8 @@
         } elseif ($_POST['lang'] == 'en') {
             $_SESSION['lang'] = 'en';
         }
+        header( 'HTTP/1.1 303 See Other' );
+        header( 'Location: ' .  $_SERVER['REQUEST_URI'] );
     }
 
     switch ($_SESSION['lang'])

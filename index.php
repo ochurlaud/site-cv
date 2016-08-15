@@ -5,7 +5,7 @@
 
         <?php echo _("Accueil"); ?>
 
-        <p class="pull-right"><em>Olivier CHURLAUD</em></p>
+        <p> &nbsp;&mdash; Olivier</p>
     </div>
 </div>
 

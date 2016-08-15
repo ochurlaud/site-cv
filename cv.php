@@ -64,6 +64,12 @@
 
     <h3><?php echo _("cv_exp_pro_titre");?></h3>
     <div class="topic row">
+        <div class="topic-header col-sm-3 col-md-2">2016</div>
+        <div class="topic-content col-sm-9 col-md-10">
+            <?php echo _("cv_exp_master"); ?>
+        </div>
+    </div>
+    <div class="topic row">
         <div class="topic-header col-sm-3 col-md-2">2014</div>
         <div class="topic-content col-sm-9 col-md-10">
             <?php echo _("cv_exp_pro_application"); ?>
@@ -129,13 +135,19 @@
             <?php echo _("cv_interet_musique"); ?>
         </div>
     </div>
-
-    <h3><?php echo _("cv_interet_sport_titre"); ?></h3>
+    <h3><?php echo _("cv_interet_other_titre"); ?></h3>
     <div class="topic row">
         <div class="topic-header col-sm-3 col-md-2"><?php echo _("cv_interet_sport_header"); ?></div>
         <div class="topic-content col-sm-9 col-md-10">
             <?php echo _("cv_interet_sport"); ?>
         </div>
     </div>
+    <div class="topic row">
+        <div class="topic-header col-sm-3 col-md-2"><?php echo _("cv_interet_contrib_header"); ?></div>
+        <div class="topic-content col-sm-9 col-md-10">
+            <?php echo _("cv_interet_contrib"); ?>
+        </div>
+    </div>
+
 </div>
 <?php require_once('includes/footer.php'); ?>

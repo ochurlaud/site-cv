@@ -1,5 +1,6 @@
 <?php
     session_start();
+
     $age = (date('m') > 4 || (date('m') == 4  && date('d') >= 7))
                 ? (int) date('Y') - 1992
                 : (int) date('Y') - 1992 - 1;
