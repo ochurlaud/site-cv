@@ -64,6 +64,14 @@ msgstr "Projets"
 msgid "file_cv"
 msgstr "olivier_churlaud-cv-fr.pdf"
 
+#: general
+msgid "presence_online"
+msgstr "Présence en ligne"
+
+#: general
+msgid "sur"
+msgstr "sur"
+
 ##
 # Index, page d'accueil
 ##

@@ -111,6 +111,14 @@ msgstr "November"
 msgid "Décembre"
 msgstr "December"
 
+#: general
+msgid "presence_online"
+msgstr "Find me online"
+
+#: general
+msgid "sur"
+msgstr "on"
+
 ##
 # Index, page d'accueil
 ##
