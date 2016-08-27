@@ -255,7 +255,7 @@ msgstr "<strong>English</strong> - Fluent : TOEFL 613pts (B2/C1)"
 
 #: cv.php
 msgid "cv_comp_allemand"
-msgstr "<strong>German</strong> - Professional skills : B2 (European notation system), lived 2 years in Berlin"
+msgstr "<strong>German</strong> - Professional skills : B2 (European notation system), 2 years spent in Berlin"
 
 ## Centres d'intéret
 #: cv.php
@@ -341,7 +341,7 @@ msgstr "Languages"
 msgid "comp_langues"
 msgstr "<li><strong>French</strong>: Native language</li>\n"
 "<li><strong>English</strong>: Fluent - TOEFL 613pts (2014)</li>\n"
-"<li><strong>German</strong>: Professional skills (~fluent) - B2 (2014) - Lived 2 yeas in Berlin</li>"
+"<li><strong>German</strong>: Professional skills (~fluent) - B2 (2014) - 2 years spent in Berlin</li>"
 
 #: competences.php
 msgid "comp_informatique_titre"
@@ -417,7 +417,7 @@ msgid "projet_TB_liens"
 msgstr "<li>[1] Telecom Bretagne &ndash; <a href=\"https://telecom-bretagne.eu\" alt=\"Telecom Bretagne\">telecom-bretagne.eu</a></li>\n"
 "<li>[2] Dr F.P. Andriulli personal page &ndash; <a href=\"http://recherche.telecom-bretagne.eu/cerl\" alt=\"FP Andriulli\">recherche.telecom-bretagne.eu/cerl</a></li>\n"
 "<li>[3] &Eacute;cole Centrale de Lyon &ndash; <a href=\"http://www.ec-lyon.fr/\" alt=\"Website ECL\">www.ec-lyon.fr</a></li>\n"
-"<li>[Pour en savoir plus] <a href=\"download/projects/Stage2A.pdf\" alt=\"Internship report\">Internship report</a></li>"
+"<li>[Further informations] <a href=\"download/projects/Stage2A.pdf\" alt=\"Internship report\">Internship report</a></li>"
 
 ## PAr
 
