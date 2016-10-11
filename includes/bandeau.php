@@ -9,7 +9,7 @@
                 <strong>Olivier CHURLAUD</strong><br />
                 <?php echo $age . ' ' . _("ans") . ' (' ._("né le 7 avril 1992") .')';?><br />
                 <span class="glyphicon glyphicon-send"></span> <span class="adressemail">moc.dualruhc@reivilo</span><br />
-                <span class="glyphicon glyphicon-earphone"></span> +49 (0)1575-2931348 <br />
+                <span class="glyphicon glyphicon-earphone"></span> +33 (0)6 98 29 02 52 <br />
             </address>
         </div>
         <div class="col-sm-6 col-md-4">
