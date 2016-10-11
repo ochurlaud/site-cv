@@ -388,15 +388,16 @@ msgstr "Localization and correction of orbit perturbations in BESSY&nbsp;II stor
 msgid "projet_bessy_presentation"
 msgstr "<p>This project was my Master thesis for finishing my double degree with TU&nbsp;Berlin [<a href=\"https://www.tu-berlin.de\" alt=\"Tu Berlin\">1</a>] as well as a student part-time job.</p>\n"
 "<p>The goal was to enhance the correction of the electrons orbit perturbations in BESSY&nbsp;II accelerator [<a href=\"https://www.helmholtz-berlin.de/quellen/bessy/index_en.html\" alt=\"Bessy2\">2</a>] so that they stay at closest from the planed trajectory.</p>\n"
-"<p>I completely rewrote the correction program in C++ <a href=\"https://github.com/ochurlaud/MSc_FOFB-mBox\" alt=\"mBox on github\">[3]</a> and created a analysis and signal processing Python library. I wrote as well scripts that allow localizing perturbations along the orbit <a href=\"https://github.com/ochurlaud/MSc_SearchKicks\" alt=\"SearchKicks on github\">[4]</a>.</p>"
+"<p>I completely rewrote the correction program in C++ <a href=\"https://github.com/ochurlaud/MSc_FOFB-mBox\" alt=\"mBox on github\">[3]</a> and created a analysis and signal processing Python library <a href=\"https://github.com/ochurlaud/MSc_FOFB-Simulation\" alt=\"mysignal on github\">[4]</a>. I wrote as well scripts that allow localizing perturbations along the orbit <a href=\"https://github.com/ochurlaud/MSc_SearchKicks\" alt=\"SearchKicks on github\">[5]</a>.</p>"
 
 #: projets.php
 msgid "projet_bessy_liens"
 msgstr "<li>[1] Technische Universität Berlin &ndash; <a href=\"https://www.tu-berlin.de\" alt=\"Tu Berlin\">www.tu-berlin.de</a></li>\n"
 "<li>[2] BESSY II &ndash; <a href=\"https://www.helmholtz-berlin.de/quellen/bessy/index_en.html\" alt=\"Bessy2\">www.helmholtz-berlin.de/quellen/bessy/index_en.html</a></li>\n"
-"<li>[3] mBox++ source code &ndash; <a href=\"https://github.com/ochurlaud/MSc_FOFB-mBox\" alt=\"mBox on github\">https://github.com/ochurlaud/MSc_FOFB-mBox</a>\n"
-"<li>[4] SearchKicks library &ndash; <a href=\"https://github.com/ochurlaud/MSc_SearchKicks\" alt=\"SearchKicks on github\">https://github.com/ochurlaud/MSc_SearchKicks</a>\n"
-"<li>[Further informations] <a href=\"download/projects/MasterThesis_OlivierChurlaud_2016.pdf\" alt=\"Master Thesis\">Master thesis</a></li>"
+"<li>[3] <code>mBox++</code> source code &ndash; <a href=\"https://github.com/ochurlaud/MSc_FOFB-mBox\" alt=\"mBox on github\">https://github.com/ochurlaud/MSc_FOFB-mBox</a>\n"
+"<li>[4] Signal processing library &ndash; <a href=\"https://github.com/ochurlaud/MSc_FOFB-Simulation\" alt=\"mysignal on github\">https://github.com/ochurlaud/MSc_FOFB-Simulation</a>\n"
+"<li>[5] <code>SearchKicks</code> library &ndash; <a href=\"https://github.com/ochurlaud/MSc_SearchKicks\" alt=\"SearchKicks on github\">https://github.com/ochurlaud/MSc_SearchKicks</a>\n"
+"<li>[Further informations] <a href=\"download/projects/MasterThesis_OlivierChurlaud_2016.pdf\" alt=\"Master Thesis\">Master thesis</a>, <a href=\"download/projects/MasterThesis_OlivierChurlaud_2016_pres.pdf\" alt=\"slides\">Slides [en]</a></li>"
 
 ## Stage Francesco
 msgid "projet_TB_titre"

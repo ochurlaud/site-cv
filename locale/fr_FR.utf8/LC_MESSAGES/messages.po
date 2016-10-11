@@ -353,15 +353,16 @@ msgstr "Localisation et correction de perturbations dans l'orbite de l'accélér
 msgid "projet_bessy_presentation"
 msgstr "<p>Ce projet a constitué mon mémoire de Master pour clôturer mon double diplôme avec la TU&nbsp;Berlin [<a href=\"https://www.tu-berlin.de\" alt=\"Tu Berlin\">1</a>] ainsi qu'un travail étudiant en parallèle de ma dernière année de cours.</p>\n"
 "<p>Le but était d'améliorer la correction des perturbations de l'orbite suivi par les électrons stockés dans l'accélérateur BESSY&nbsp;II [<a href=\"https://www.helmholtz-berlin.de/quellen/bessy/index_en.html\" alt=\"Bessy2\">2</a>] afin que ceux-ci restent au plus proche de la trajectoire planifiée.</p>\n"
-"<p>J'ai entièrement réécrit le programme effectuant la correction en C++ <a href=\"https://github.com/ochurlaud/MSc_FOFB-mBox\" alt=\"mBox on github\">[3]</a> et composé une bibliothèque Python d'analyse et de filtrage du signal. J'ai aussi conçu des scripts permettant de localiser les sources des perturbations le long de l'orbite <a href=\"https://github.com/ochurlaud/MSc_SearchKicks\" alt=\"SearchKicks on github\">[4]</a>.</p>"
+"<p>J'ai entièrement réécrit le programme effectuant la correction en C++ <a href=\"https://github.com/ochurlaud/MSc_FOFB-mBox\" alt=\"mBox on github\">[3]</a> et composé une bibliothèque Python d'analyse et de filtrage du signal <a href=\"https://github.com/ochurlaud/MSc_FOFB-Simulation\" alt=\"mysignal on github\">[4]</a>. J'ai aussi conçu des scripts permettant de localiser les sources des perturbations le long de l'orbite <a href=\"https://github.com/ochurlaud/MSc_SearchKicks\" alt=\"SearchKicks on github\">[5]</a>.</p>"
 
 #: projets.php
 msgid "projet_bessy_liens"
 msgstr "<li>[1] Technische Universität Berlin &ndash; <a href=\"https://www.tu-berlin.de\" alt=\"Tu Berlin\">www.tu-berlin.de</a></li>\n"
 "<li>[2] BESSY II &ndash; <a href=\"https://www.helmholtz-berlin.de/quellen/bessy/index_en.html\" alt=\"Bessy2\">www.helmholtz-berlin.de/quellen/bessy/index_en.html</a>\n"
 "<li>[3] Code source de <code>mBox++</code> &ndash; <a href=\"https://github.com/ochurlaud/MSc_FOFB-mBox\" alt=\"mBox on github\">https://github.com/ochurlaud/MSc_FOFB-mBox</a>\n"
-"<li>[4] Bibliothèque <code>SearchKicks</code> &ndash; <a href=\"https://github.com/ochurlaud/MSc_SearchKicks\" alt=\"SearchKicks on github\">https://github.com/ochurlaud/MSc_SearchKicks</a>\n"
-"<li>[Pour en savoir plus] <a href=\"download/projects/MasterThesis_OlivierChurlaud_2016.pdf\" alt=\"Memoire de master\">Mémoire de Master [en]</a></li>"
+"<li>[4] Bibliothèque d'analyse et filtrage du signal &ndash; <a href=\"https://github.com/ochurlaud/MSc_FOFB-Simulation\" alt=\"mysignal on github\">https://github.com/ochurlaud/MSc_FOFB-Simulation</a>\n"
+"<li>[5] Bibliothèque <code>SearchKicks</code> &ndash; <a href=\"https://github.com/ochurlaud/MSc_SearchKicks\" alt=\"SearchKicks on github\">https://github.com/ochurlaud/MSc_SearchKicks</a>\n"
+"<li>[Pour en savoir plus] <a href=\"download/projects/MasterThesis_OlivierChurlaud_2016.pdf\" alt=\"Memoire de master\">Mémoire de Master [en]</a>, <a href=\"download/projects/MasterThesis_OlivierChurlaud_2016_pres.pdf\" alt=\"slides\">Présentation du Master [en]</a></li>"
 
 ## Stage Francesco
 
