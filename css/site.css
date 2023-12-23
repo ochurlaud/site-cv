@@ -1,0 +1,53 @@
+body {
+    background-color: #eee;
+}
+
+h5 {
+    line-height: 1.2;
+}
+
+.first-row {
+    max-width:400px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.second-row {
+    max-width: 1600px;
+}
+
+.full-width {
+    max-width: 100%
+}
+
+.center-block {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.three .columns {
+    max-width:400px;
+}
+
+.footer-separation {
+    width: 100%;
+    line-height: 1px;
+    color: black;
+    border-width: 1px;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+
+.semi-round {
+    border-radius: 25%;
+    width: 75%;
+}
+
+.round {
+    border-radius: 50%;
+    width: 75%;
+}
+
+.offuscate i {
+    display: none;
+}
